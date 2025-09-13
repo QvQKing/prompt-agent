@@ -1,0 +1,898 @@
+[
+  {
+    "question": "there are 32 stations between ernakulam and chennai . how many second class tickets have to be printed , so that a passenger can travel from one station to any other station ?",
+    "golden_answers": [
+      "1122"
+    ],
+    "context": []
+  },
+  {
+    "question": "a fair coin is tossed 11 times . what is the probability of getting more heads than tails in 11 tosses ?",
+    "golden_answers": [
+      "1 / 2"
+    ],
+    "context": []
+  },
+  {
+    "question": "a train 250 m long passes a man , running at 10 km / hr in the same direction in which the train is going , in 20 seconds . the speed of the train is :",
+    "golden_answers": [
+      "55"
+    ],
+    "context": []
+  },
+  {
+    "question": "barbata invests $ 2400 in the national bank at 5 % . how much additional money must she invest at 8 % so that the total annual income will be equal to 6 % of her entire investment ?",
+    "golden_answers": [
+      "1200"
+    ],
+    "context": []
+  },
+  {
+    "question": "after a storm deposits 120 billion gallons of water into the city reservoir , the reservoir is 50 % full . if the original contents of the reservoir totaled 280 billion gallons , the reservoir was approximately what percentage full before the storm ?",
+    "golden_answers": [
+      "54 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "at 12 : 30 , the hour hand and the minute hand of a clock form an angle of",
+    "golden_answers": [
+      "180 °"
+    ],
+    "context": []
+  },
+  {
+    "question": "a train is 435 meter long is running at a speed of 45 km / hour . in what time will it pass a bridge of 140 meter length",
+    "golden_answers": [
+      "46 seconds"
+    ],
+    "context": []
+  },
+  {
+    "question": "find the average of first 3 multiples of 5 ?",
+    "golden_answers": [
+      "10"
+    ],
+    "context": []
+  },
+  {
+    "question": "for any integer p , * p is equal to the product of all the integers between 1 and p , inclusive . how many prime numbers are there between * 9 + 3 and * 9 + 9 , inclusive ?",
+    "golden_answers": [
+      "none"
+    ],
+    "context": []
+  },
+  {
+    "question": "an angry arjun carried some arrows for fighting with bheeshm . with half the arrows , he cut down the arrows thrown by bheeshm on him and with 6 other arrows he killed the chariot driver of bheeshm . with one arrow each he knocked down respectively the chariot , the flag and the bow of bheeshm . finally , with one more than 4 times the square root of arrows he laid bheeshm unconscious on an arrow bed . find the total number of arrows arjun had .",
+    "golden_answers": [
+      "100"
+    ],
+    "context": []
+  },
+  {
+    "question": "in covering a distance of 54 km , abhay takes 2 hours more than sameer . if abhay doubles his speed , then he would take 1 hour less than sameer . abhay ' s speed is :",
+    "golden_answers": [
+      "9 kmph"
+    ],
+    "context": []
+  },
+  {
+    "question": "if jake loses 8 pounds , he will weigh twice as much as his sister kendra . together they now weigh 284 pounds . what is jake ’ s present weight , in pounds ?",
+    "golden_answers": [
+      "192"
+    ],
+    "context": []
+  },
+  {
+    "question": "a starts business with rs . 3500 and after 5 months , b joins with a as his partner . after a year , the profit is divided in the ratio 2 : 3 . what is b ' s contribution in the capital",
+    "golden_answers": [
+      "rs 9000"
+    ],
+    "context": []
+  },
+  {
+    "question": "two men and 7 children complete a certain piece of work in 4 days while 4 men and 4 children complete the same work in only 3 days . the number of days required by 1 man to complete the work is",
+    "golden_answers": [
+      "15 days"
+    ],
+    "context": []
+  },
+  {
+    "question": "0,2 , 6 , 12 , 20 , 30 , 42 , ___",
+    "golden_answers": [
+      "56"
+    ],
+    "context": []
+  },
+  {
+    "question": "each year for 4 years , a farmer increased the number of trees in a certain orchard by 1 / 4 of the number of trees in the orchard of the preceding year . if all of the trees thrived and there were 12500 trees in the orchard at the end of 4 year period , how many trees were in the orchard at the beginning of the 4 year period .",
+    "golden_answers": [
+      "5120"
+    ],
+    "context": []
+  },
+  {
+    "question": "a salesman commission is 5 % on all sales upto $ 10000 and 4 % on all sales exceeding this . he remits $ 31100 to his parent company after deducting his commission . find the total sales ?",
+    "golden_answers": [
+      "$ 32500"
+    ],
+    "context": []
+  },
+  {
+    "question": "a library has an average of 425 visitors on sundays and 325 on other days . the average number of visitors per day in a month of 30 days beginning with a sunday is :",
+    "golden_answers": [
+      "340"
+    ],
+    "context": []
+  },
+  {
+    "question": "the ratio between the length and the breadth of a rectangular park is 3 : 4 . if a man cycling along the boundary of the park at the speed of 15 km / hr completes one round in 10 min , then the area of the park ( in sq . m ) is ?",
+    "golden_answers": [
+      "244907.04 m"
+    ],
+    "context": []
+  },
+  {
+    "question": "how many positive integers less than 240 are multiple of 4 but not multiples of 6 ?",
+    "golden_answers": [
+      "40"
+    ],
+    "context": []
+  },
+  {
+    "question": "the greatest number which on dividing 1657 and 2037 leaves remainders 9 and 5 respectively , is :",
+    "golden_answers": [
+      "16"
+    ],
+    "context": []
+  },
+  {
+    "question": "x , a , z , and b are single digit positive integers . x = 1 / 7 a . z = 1 / 7 b . ( 10 a + b ) – ( 10 x + z ) could not equal",
+    "golden_answers": [
+      "63"
+    ],
+    "context": []
+  },
+  {
+    "question": "a boat having a length 3 m and breadth 2 m is floating on a lake . the boat sinks by 1 cm when a man gets on it . the mass of the man is :",
+    "golden_answers": [
+      "60 kg"
+    ],
+    "context": []
+  },
+  {
+    "question": "3 distinct single digit no a , b , c are in g . p . if abs ( x ) for real x is the absolute value of x ( x if x is positive or zero , and x if x is negative ) , then the no . of different possible values of abs ( a + b - c ) is",
+    "golden_answers": [
+      "5"
+    ],
+    "context": []
+  },
+  {
+    "question": "$ 378 is divided among a , b , and c so that a receives half as much as b , and b receives half as much as c . how much money is c ' s share ?",
+    "golden_answers": [
+      "$ 216"
+    ],
+    "context": []
+  },
+  {
+    "question": "the difference between two numbers is 1365 . when the larger number is divided by the smaller one , the quotient is 6 and the remainder is 15 . the smaller number is",
+    "golden_answers": [
+      "270"
+    ],
+    "context": []
+  },
+  {
+    "question": "find the greatest number which leaves the same remainder when it divides 25 , 50 and 120 .",
+    "golden_answers": [
+      "5"
+    ],
+    "context": []
+  },
+  {
+    "question": "o ( x ) represents the least odd integer greater than x , whereas o ( x ) represents the greatest odd integer less than x . likewise , e ( x ) represents the least even integer greater than x , whereas e ( x ) represents the greatest even integer less than x . according to these definitions , the value of o ( 11.6 ) + e ( – 10.4 ) + o ( – 9.2 ) + e ( 9.5 ) is :",
+    "golden_answers": [
+      "0"
+    ],
+    "context": []
+  },
+  {
+    "question": "the present population of a town is 3888 . population increase rate is 20 % p . a . find the population of town before 2 years ?",
+    "golden_answers": [
+      "2700"
+    ],
+    "context": []
+  },
+  {
+    "question": "there are 240 doctors and nurses at a hospital . if the ratio of doctors to nurses is 3 to 7 , how many nurses are at the hospital ?",
+    "golden_answers": [
+      "168"
+    ],
+    "context": []
+  },
+  {
+    "question": "reeya obtained 40 , 60 , 70 , 80 and 80 out of 100 in different subjects , what will be the average",
+    "golden_answers": [
+      "66"
+    ],
+    "context": []
+  },
+  {
+    "question": "how many internal diagonals does a pentagon ( five sided polygon ) have ?",
+    "golden_answers": [
+      "5"
+    ],
+    "context": []
+  },
+  {
+    "question": "find the area of trapezium whose parallel sides are 30 cm and 18 cm long , and the distance between them is 15 cm .",
+    "golden_answers": [
+      "360"
+    ],
+    "context": []
+  },
+  {
+    "question": "if the wheel is 14 cm then the number of revolutions to cover a distance of 2288 cm is ?",
+    "golden_answers": [
+      "26"
+    ],
+    "context": []
+  },
+  {
+    "question": "because he ’ s taxed by his home planet , mork pays a tax rate of 40 % on his income , while mindy pays a rate of only 20 % on hers . if mindy earned 4 times as much as mork did , what was their combined tax rate ?",
+    "golden_answers": [
+      "24 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "if 150 ! / 10 ^ n is an integer , what is the largest possible value of n ?",
+    "golden_answers": [
+      "37"
+    ],
+    "context": []
+  },
+  {
+    "question": "what quantity of water should be added to reduce 9 liters of 50 % acidic liquid to 30 % acidic liquid ?",
+    "golden_answers": [
+      "6 liters"
+    ],
+    "context": []
+  },
+  {
+    "question": "machine a produces 100 parts twice as fast as machine b does . machine b produces 100 parts in 80 minutes . if each machine produces parts at a constant rate , how many parts does machine a produce in 20 minutes ?",
+    "golden_answers": [
+      "50"
+    ],
+    "context": []
+  },
+  {
+    "question": "a scuba diver descends at a rate of 40 feet per minute . a diver dive from a ship to search for a lost ship at the depth of 3000 feet below the sea level . . how long will he take to reach the ship ?",
+    "golden_answers": [
+      "75 minutes"
+    ],
+    "context": []
+  },
+  {
+    "question": "p has $ 21 more than what q and r together would have had if both b and c had 1 / 5 of what p has . how much does p have ?",
+    "golden_answers": [
+      "$ 35"
+    ],
+    "context": []
+  },
+  {
+    "question": "a train 125 m long passes a man , running at 5 km / hr in the same direction in which the train is going , in 10 seconds . the speed of the train is :",
+    "golden_answers": [
+      "50 km / hr"
+    ],
+    "context": []
+  },
+  {
+    "question": "if â € œ * â €  is called â € œ + â €  , â € œ / â €  is called â € œ * â €  , â € œ - â €  is called â € œ / â €  , â € œ + â €  is called â € œ - â €  . 240 / 80 â € “ 60 * 40 - 10 = ?",
+    "golden_answers": [
+      "323.2"
+    ],
+    "context": []
+  },
+  {
+    "question": "what is the area inscribed by the lines y = 4 , x = 2 , y = 6 - 2 x on an xy - coordinate plane ?",
+    "golden_answers": [
+      "a ) 1"
+    ],
+    "context": []
+  },
+  {
+    "question": "a and b together do a work in 20 days . b and c together in 15 days and c and a in 12 days . so a , b and c together finish same work in how many days ?",
+    "golden_answers": [
+      "10"
+    ],
+    "context": []
+  },
+  {
+    "question": "p , q and r have $ 6000 among themselves . r has two - thirds of the total amount with p and q . find the amount with r ?",
+    "golden_answers": [
+      "2400"
+    ],
+    "context": []
+  },
+  {
+    "question": "two numbers are respectively 50 % and 20 % more than a third number . the percentage that is first of the second is ?",
+    "golden_answers": [
+      "125 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "a customer bought a product at the shop . however , the shopkeeper increased the price of the product by 20 % so that the customer could not buy the required amount of the product . the customer managed to buy only 80 % of the required amount . what is the difference in the amount of money that the customer paid for the second purchase compared to the first purchase ?",
+    "golden_answers": [
+      "4 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "a sum of money is to be distributed among a , b , c , d in the proportion of 5 : 2 : 4 : 3 . if c gets euro 1000 more than d , what is b ' s share ?",
+    "golden_answers": [
+      "euro 2000"
+    ],
+    "context": []
+  },
+  {
+    "question": "if n is the greatest positive integer for which 2 ^ n is a factor of 8 ! , then n = ?",
+    "golden_answers": [
+      "6"
+    ],
+    "context": []
+  },
+  {
+    "question": "__ 2 a x __ b ____ cc in the multiplication problem above , a , b , and c represent distinct digits . if the sum of a and b is equal to 4.6 , what is the value of c ?",
+    "golden_answers": [
+      "5.2"
+    ],
+    "context": []
+  },
+  {
+    "question": "a girl scout was selling boxes of cookies . in a month , she sold both boxes of chocolate chip cookies ( $ 1.25 each ) and boxes of plain cookies ( $ 0.75 each ) . altogether , she sold 1,585 boxes for a combined value of $ 1 , 587.75 . how many boxes of plain cookies did she sell ?",
+    "golden_answers": [
+      "787"
+    ],
+    "context": []
+  },
+  {
+    "question": "a sum of money at simple interest amounts to $ 680 in 3 years and to $ 710 in 4 years . the sum is :",
+    "golden_answers": [
+      "$ 590"
+    ],
+    "context": []
+  },
+  {
+    "question": "in an election between two candidates , one got 55 % of the total valid votes , 20 % of the votes were invalid . if the total number of votes was 6500 , the number of valid votes that the other candidate got , was :",
+    "golden_answers": [
+      "2340"
+    ],
+    "context": []
+  },
+  {
+    "question": "in what time will a railway train 120 m long moving at the rate of 70 kmph pass a telegraph post on its way ?",
+    "golden_answers": [
+      "6 sec"
+    ],
+    "context": []
+  },
+  {
+    "question": "uncle bruce is baking chocolate chip cookies . he has 36 ounces of dough ( with no chocolate ) and 16 ounces of chocolate . how many ounces of chocolate are left over if he uses all the dough but only wants the cookies to consist of 20 % chocolate ?",
+    "golden_answers": [
+      "7"
+    ],
+    "context": []
+  },
+  {
+    "question": "if ( 18 ^ a ) * 9 ^ ( 3 a – 1 ) = ( 2 ^ 3 ) ( 3 ^ b ) and a and b are positive integers , what is the value of a ?",
+    "golden_answers": [
+      "3"
+    ],
+    "context": []
+  },
+  {
+    "question": "what is the product of all the possible values of x if x ^ 2 + 5 x + 6 ?",
+    "golden_answers": [
+      "6"
+    ],
+    "context": []
+  },
+  {
+    "question": "the average salary of all the workers in a workshop is rs . 8000 . the average salary of 7 technicians is rs . 12000 and the average salary of the rest is rs . 6000 . the total number of workers in the workshop is ?",
+    "golden_answers": [
+      "21"
+    ],
+    "context": []
+  },
+  {
+    "question": "in a group of ducks and cows , the total number of legs are 26 more than twice the no . of heads . find the total no . of buffaloes .",
+    "golden_answers": [
+      "13"
+    ],
+    "context": []
+  },
+  {
+    "question": "if an integer n is to be chosen at random from the integers 1 to 96 , inclusive , what is the probability that n ( n + 1 ) ( n + 2 ) will be divisible by 6 ?",
+    "golden_answers": [
+      "2 / 3"
+    ],
+    "context": []
+  },
+  {
+    "question": "when greenville state university decided to move its fine arts collection to a new library , it had to package the collection in 20 - inch by 20 - inch by 15 - inch boxes . if the university pays $ 0.60 for every box , and if the university needs 3.06 million cubic inches to package the collection , what is the minimum amount the university must spend on boxes ?",
+    "golden_answers": [
+      "$ 306"
+    ],
+    "context": []
+  },
+  {
+    "question": "how many diagonals does a 59 - sided convex polygon have ?",
+    "golden_answers": [
+      "1652"
+    ],
+    "context": []
+  },
+  {
+    "question": "the original price of a suit is $ 100 . the price increased 20 % , and after this increase , the store published a 20 % off coupon for a one - day sale . given that the consumers who used the coupon on sale day were getting 20 % off the increased price , how much did these consumers pay for the suit ?",
+    "golden_answers": [
+      "$ 96"
+    ],
+    "context": []
+  },
+  {
+    "question": "a rectangular block 10 cm by 20 cm by 30 cm is cut into an exact number of equal cubes . find the least possible number of cubes ?",
+    "golden_answers": [
+      "6"
+    ],
+    "context": []
+  },
+  {
+    "question": "a train passes a station platform in 34 sec and a man standing on the platform in 20 sec . if the speed of the train is 54 km / hr . what is the length of the platform ?",
+    "golden_answers": [
+      "210"
+    ],
+    "context": []
+  },
+  {
+    "question": "there are 1000 students in a school and among them 10 % of them attends chess class . 10 % of the students who are in the chess class are also enrolled for swimming . no other students are interested in swimming so how many will attend the swimming class if all enrolled attends ?",
+    "golden_answers": [
+      "10"
+    ],
+    "context": []
+  },
+  {
+    "question": "a monkey start climbing up a tree 18 ft tall . each hour it hops 3 ft and slips back 2 ft . how much time would it take the monkey to reach the top .",
+    "golden_answers": [
+      "16 hrs"
+    ],
+    "context": []
+  },
+  {
+    "question": "the cost of registration at a professional association meeting was $ 50 per person ; a lunch for registrants only was available for an additional $ 22 per person . if the number of registrants who paid for lunch was 30 more than the number who did not , and if receipts for registration and lunch totaled $ 75,360 , how many people paid just for registration at the meeting ?",
+    "golden_answers": [
+      "600"
+    ],
+    "context": []
+  },
+  {
+    "question": "what number has a 3 : 4 ratio to the number 400 ?",
+    "golden_answers": [
+      "300"
+    ],
+    "context": []
+  },
+  {
+    "question": "a train 150 m long running at 72 kmph crosses a platform in 25 sec . what is the length of the platform ?",
+    "golden_answers": [
+      "350"
+    ],
+    "context": []
+  },
+  {
+    "question": "a technician makes a round - trip to and from a certain service center by the same route . if the technician completes the drive to the center and then completes 80 percent of the drive from the center , what percent of the round - trip has the technician completed ?",
+    "golden_answers": [
+      "90"
+    ],
+    "context": []
+  },
+  {
+    "question": "45 workers work 8 hours to dig a hole 30 meters deep . how many extra workers should be hired to dig another hole 35 meters deep by working for 6 hours ?",
+    "golden_answers": [
+      "30"
+    ],
+    "context": []
+  },
+  {
+    "question": "a certain car ' s price decreased by 2.5 % ( from the original price ) each year from 1996 to 2002 , during that time the owner of the car invested in a new carburetor and a new audio system for the car , which increased car ' s price by $ 3,500 . if the price of the car in 1996 was $ 22,000 , what is the car ' s price in 2002 ?",
+    "golden_answers": [
+      "$ 22"
+    ],
+    "context": []
+  },
+  {
+    "question": "a rectangular lawn of dimensions 120 m * 60 m has two roads each 10 m wide running in the middle of the lawn , one parallel to the length and the other parallel to the breadth . what is the cost of traveling the two roads at rs . 3 per sq m ?",
+    "golden_answers": [
+      "s . 5100"
+    ],
+    "context": []
+  },
+  {
+    "question": "during a thanksgiving weekend , a car rental company rented 6 - tenths of their vehicles , including two - fifths of the 4 wds that it had . if 40 % of the vehicles are 4 wds , then what percent of the vehicles that were not rented were not 4 wds ?",
+    "golden_answers": [
+      "40 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "which is the least number that must be subtracted from 1856 so that the remainder when divided by 7 , 12 , 10 is 4 ?",
+    "golden_answers": [
+      "172"
+    ],
+    "context": []
+  },
+  {
+    "question": "a large box contains 18 small boxes and each small box contains 25 chocolate bars . how many chocolate bars are in the large box ?",
+    "golden_answers": [
+      "450"
+    ],
+    "context": []
+  },
+  {
+    "question": "a farmer spent $ 35 on feed for chickens and goats . he spent 40 % money on chicken feed , which he bought at a 30 % discount off the full price , and spent the rest on goat feed , which he bought at full price . if the farmer had paid full price for both the chicken feed and the goat feed , what amount would he have spent on the chicken feed and goat feed combined ?",
+    "golden_answers": [
+      "$ 41"
+    ],
+    "context": []
+  },
+  {
+    "question": "a can do a piece of work in 4 hours ; b and c together can do it in 3 hours , which a and c together can do it in 2 hours . how long will b alone take to do it ?",
+    "golden_answers": [
+      "12 hours"
+    ],
+    "context": []
+  },
+  {
+    "question": "when 1 is added to half of one - third of one - fifth of a number , the result is one - fifteenth of the number . find the number ?",
+    "golden_answers": [
+      "30"
+    ],
+    "context": []
+  },
+  {
+    "question": "a merchant sells an item at a 20 % discount , but still makes a gross profit of 20 percent of the cost . what percent w of the cost would the gross profit on the item have been if it had been sold without the discount ?",
+    "golden_answers": [
+      "50 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "a person has 100 $ in 10 $ and 5 $ bill . if the 5 $ bill quantity is twice that of 10 $ bill . what is quantity of 10 $ .",
+    "golden_answers": [
+      "5"
+    ],
+    "context": []
+  },
+  {
+    "question": "a father said his son , ` ` i was as old as you are at present at the time of your birth . ` ` if the father age is 40 now , the son age 5 years back was",
+    "golden_answers": [
+      "15"
+    ],
+    "context": []
+  },
+  {
+    "question": "a man has some hens and cows . if the number of heads be 50 and the number of feet equals 160 , then the number of hens will be :",
+    "golden_answers": [
+      "20"
+    ],
+    "context": []
+  },
+  {
+    "question": "the radius of a circular wheel is 1.75 m , how many revolutions will it make in traveling 1 km ?",
+    "golden_answers": [
+      "a"
+    ],
+    "context": []
+  },
+  {
+    "question": "a high school has 360 students 1 / 2 attend the arithmetic club , 5 / 8 attend the biology club and 3 / 4 attend the chemistry club . 3 / 8 attend all 3 clubs . if every student attends at least one club how many students attend exactly 2 clubs .",
+    "golden_answers": [
+      "45"
+    ],
+    "context": []
+  },
+  {
+    "question": "a and b can do a piece of work in 10 days . with the help of c they finish the work in 3 days . c alone can do that piece of work in ?",
+    "golden_answers": [
+      "4.3 days"
+    ],
+    "context": []
+  },
+  {
+    "question": "a cistern 10 meters long and 4 meters wide contains water up to a depth of 1 meter 25 cm . what is the total area of the wet surface ?",
+    "golden_answers": [
+      "75"
+    ],
+    "context": []
+  },
+  {
+    "question": "a room is a square of side 50 feet . a second room is of area 100 square yards . a third room is of area 200 square feet . which of these can seat maximum people ? ( hint : 1 yard = 3 feet )",
+    "golden_answers": [
+      "200 sq feet"
+    ],
+    "context": []
+  },
+  {
+    "question": "a certain animal in the zoo has consumed 39 pounds of food in 6 days . if it continues to eat at the same rate , in how many more days will its total consumption be 117 pounds ?",
+    "golden_answers": [
+      "12"
+    ],
+    "context": []
+  },
+  {
+    "question": "find large no . from below question the difference of two numbers is 1365 . on dividing the larger number by the smaller , we get 6 as quotient and the 30 as remainder",
+    "golden_answers": [
+      "1632"
+    ],
+    "context": []
+  },
+  {
+    "question": "a train moves with a speed of 108 kmph . its speed in metres per second is :",
+    "golden_answers": [
+      "30"
+    ],
+    "context": []
+  },
+  {
+    "question": "country x taxes each of its citizens an amount equal to 13 percent of the first $ 40,000 of income , plus 20 percent of all income in excess of $ 40,000 . if a citizen of country x is taxed a total of $ 8,000 , what is her income ?",
+    "golden_answers": [
+      "$ 54"
+    ],
+    "context": []
+  },
+  {
+    "question": "two stations p and q are 155 km apart on a straight track . one train starts from p at 7 a . m . and travels towards q at 20 kmph . another train starts from q at 8 a . m . and travels towards p at a speed of 25 kmph . at what time will they meet ?",
+    "golden_answers": [
+      "11 am"
+    ],
+    "context": []
+  },
+  {
+    "question": "during the second quarter of 1984 , a total of 3 , 976000 domestic cars were sold . if this was 32 % greater than the number sold during the first quarter of 1984 , how many were sold during the first quarter ?",
+    "golden_answers": [
+      "3"
+    ],
+    "context": []
+  },
+  {
+    "question": "rs . 385 were divided among x , y , z in such a way that x had rs . 20 more than y and z had rs 15 more than x . how much was y ’ s share ?",
+    "golden_answers": [
+      "rs . 145"
+    ],
+    "context": []
+  },
+  {
+    "question": "a person spends 40 % of his salary on food , 25 % on house rent , 15 % on entertainment and 5 % on conveyance . if his savings at the end of the month is rs . 1500 , then his salary per month in rupees is :",
+    "golden_answers": [
+      "10000"
+    ],
+    "context": []
+  },
+  {
+    "question": "the squared value of the diagonal of a rectangle is ( 64 + b 2 ) sq cm , where b is less than 8 cm . what is the breadth of that rectangle ?",
+    "golden_answers": [
+      "a"
+    ],
+    "context": []
+  },
+  {
+    "question": "in a certain pond , 80 fish were caught , tagged , and returned to the pond . a few days later , 50 fish were caught again , of which 2 were found to have been tagged . if the percent of tagged fish in the second catch approximates the percent of tagged fish in the pond , what is the approximate number of fish in the pond ?",
+    "golden_answers": [
+      "2"
+    ],
+    "context": []
+  },
+  {
+    "question": "a set consists of 12 numbers , all are even or multiple of 5 . if 4 numbers are even and 10 numbers are multiple of 5 , how many numbers is multiple of 10 ?",
+    "golden_answers": [
+      "2"
+    ],
+    "context": []
+  },
+  {
+    "question": "rs . 600 amounts to rs . 900 in 3 years at simple interest . if the interest is increased by 4 % , it would amount to how much ?",
+    "golden_answers": [
+      "672"
+    ],
+    "context": []
+  },
+  {
+    "question": "chris age after 20 years will be 5 times his age 5 years back . what is the present age of chris ?",
+    "golden_answers": [
+      "e ) 5"
+    ],
+    "context": []
+  },
+  {
+    "question": "an association of mathematics teachers has 1,260 members . only 525 of these members cast votes in the election for president of the association . what percent of the total membership voted for the winning candidate if the winning candidate received 72 percent of the votes cast ?",
+    "golden_answers": [
+      "30 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "0.002 x 0.6 = ?",
+    "golden_answers": [
+      "0.0012"
+    ],
+    "context": []
+  },
+  {
+    "question": "a man can row a distance of 5 km in 60 min with the help of the tide . the direction of the tide reverses with the same speed . now he travels a further 20 km in 20 hours . how much time he would have saved if the direction of tide has not changed ?",
+    "golden_answers": [
+      "16"
+    ],
+    "context": []
+  },
+  {
+    "question": "the average speed of a car is 1 3 / 5 times the avg speed of a bike . a tractor covers 575 km in 23 hrs . how much distance will the car cover in 4 hrs if the speed of the bike is twice speed of the tractor ?",
+    "golden_answers": [
+      "320 km"
+    ],
+    "context": []
+  },
+  {
+    "question": "pipe p can drain the liquid from a tank in 2 / 4 the time that it takes pipe q to drain it and in 2 / 3 the time that it takes pipe r to do it . if all 3 pipes operating simultaneously but independently are used to drain liquid from the tank , then pipe q drains what portion of the liquid from the tank ?",
+    "golden_answers": [
+      "3 / 13"
+    ],
+    "context": []
+  },
+  {
+    "question": "the radius of a cone is 4 m , height 5 m . find the curved surface area ?",
+    "golden_answers": [
+      "5"
+    ],
+    "context": []
+  },
+  {
+    "question": "the sum of four consecutive even integers is 1284 . the greatest of them is :",
+    "golden_answers": [
+      "324"
+    ],
+    "context": []
+  },
+  {
+    "question": "monica planned her birthday party . she prepared 5 muffins for each of her guests and kept aside two additional muffins in case someone will want extra . after the party , it turned out that one of the guests did n ' t come but every one of the guests that did come ate 6 muffins and 6 muffins remained . how many guests did monica plan on ?",
+    "golden_answers": [
+      "2 ."
+    ],
+    "context": []
+  },
+  {
+    "question": "the average age of 35 students in a class is 16 years . the average age of 21 students is 14 . what is the average age of remaining 7 students ?",
+    "golden_answers": [
+      "38 years"
+    ],
+    "context": []
+  },
+  {
+    "question": "it takes ten minutes to load a certain video on a cellphone , and fifteen seconds to load that same video on a laptop . if the two devices were connected so that they operated in concert at their respective rates , how many seconds would it take them to load the video , rounded to the nearest hundredth ?",
+    "golden_answers": [
+      "14.63"
+    ],
+    "context": []
+  },
+  {
+    "question": "a circle graph shows how the megatech corporation allocates its research and development budget : 17 % microphotonics ; 24 % home electronics ; 15 % food additives ; 29 % genetically modified microorganisms ; 8 % industrial lubricants ; and the remainder for basic astrophysics . if the arc of each sector of the graph is proportional to the percentage of the budget it represents , how many degrees of the circle are used to represent basic astrophysics research ?",
+    "golden_answers": [
+      "26 °"
+    ],
+    "context": []
+  },
+  {
+    "question": "each of 3 investments has a 20 % of becoming worthless within a year of purchase , independently of what happens to the other two investments . if simone invests an equal sum k in each of these 3 investments on january 1 , the approximate chance that by the end of the year , she loses no more than 1 / 3 of her original investment is",
+    "golden_answers": [
+      "90 %"
+    ],
+    "context": []
+  },
+  {
+    "question": "1394 x 1394",
+    "golden_answers": [
+      "1943236"
+    ],
+    "context": []
+  },
+  {
+    "question": "two trains are moving in the same direction at 72 kmph and 36 kmph . the faster train crosses a girl sitting at window seat in the slower train in 32 seconds . find the length of the faster train ?",
+    "golden_answers": [
+      "320 m"
+    ],
+    "context": []
+  },
+  {
+    "question": "there are two positive numbers in the ratio 5 : 8 . if the larger number exceeds the smaller by 27 , then find the smaller number ?",
+    "golden_answers": [
+      "45"
+    ],
+    "context": []
+  },
+  {
+    "question": "joe needs to paint all the airplane hangars at the airport , so he buys 360 gallons of paint to do the job . during the first week , he uses 1 / 4 of all the paint . during the second week , he uses 1 / 4 of the remaining paint . how many gallons of paint has joe used ?",
+    "golden_answers": [
+      "157"
+    ],
+    "context": []
+  },
+  {
+    "question": "find the perimeter and area of the rectangle of length 15 cm and breadth 13 cm .",
+    "golden_answers": [
+      "195 cm 2"
+    ],
+    "context": []
+  },
+  {
+    "question": "a circle graph shows how the budget of a certain company was spent : 61 percent for salaries , 10 percent for research and development , 6 percent for utilities , 5 percent for equipment , 3 percent for supplies , and the remainder for transportation . if the area of each sector of the graph is proportional to the percent of the budget it represents , how many degrees of the circle are used to represent transportation ?",
+    "golden_answers": [
+      "c"
+    ],
+    "context": []
+  },
+  {
+    "question": "if n is a positive integer such that n ! / ( n - 2 ) ! = 342 , find n .",
+    "golden_answers": [
+      "19"
+    ],
+    "context": []
+  },
+  {
+    "question": "if c and t are positive integers , ct + c + t can not be",
+    "golden_answers": [
+      "6"
+    ],
+    "context": []
+  },
+  {
+    "question": "a parking garage rents parking spaces for $ 10 per week or $ 20 per month . how much does a person save in a year by renting by the month rather than by the week ?",
+    "golden_answers": [
+      "$ 280"
+    ],
+    "context": []
+  },
+  {
+    "question": "the mean of 50 observations was 40 . it was found later that an observation 48 was wrongly taken as 23 . the corrected new mean is",
+    "golden_answers": [
+      "40.46"
+    ],
+    "context": []
+  },
+  {
+    "question": "896.7 – 573.07 – 95.007 = ?",
+    "golden_answers": [
+      "228.623"
+    ],
+    "context": []
+  },
+  {
+    "question": "the average weight of a class of 24 students is 35 kg . if the weight of the teacher be included , the average rises by 400 g . the weight of the teacher is :",
+    "golden_answers": [
+      "45"
+    ],
+    "context": []
+  },
+  {
+    "question": "a , b and c play a cricket match . the ratio of the runs scored by them in the match is a : b = 2 : 3 and b : c = 2 : 5 . if the total runs scored by all of them are 75 , the runs scored by b are ? a . 15 b . 18",
+    "golden_answers": [
+      "18"
+    ],
+    "context": []
+  },
+  {
+    "question": "the two lines y = x and x = - 4 intersect on the coordinate plane . if z represents the area of the figure formed by the intersecting lines and the x - axis , what is the side length q of a cube whose surface area is equal to 6 z ?",
+    "golden_answers": [
+      "q = 2 √ 2"
+    ],
+    "context": []
+  }
+]

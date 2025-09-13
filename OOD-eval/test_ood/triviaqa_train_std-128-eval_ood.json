@@ -1,0 +1,812 @@
+[
+  {
+    "question": "Currently on display at the Smithsonian's National Air and Space museum, what type of US bomber is the Enola Gay, the plane that dropped the first atomic bomb?",
+    "golden_answers": [
+      "Boeing B-29 Superfortress"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which UNESCO World Heritage Site in the Mosel Valley, Germany, is known for its Roman architecture incuding the Porta Nigra, the best-preserved Roman city gate north of the Alps?",
+    "golden_answers": [
+      "Trier"
+    ],
+    "context": []
+  },
+  {
+    "question": "F = ma is a common simplification of what?",
+    "golden_answers": [
+      "Laws of Motion"
+    ],
+    "context": []
+  },
+  {
+    "question": "The terms/concepts of kaitiaki and kaitiakitanga referring to guardianship of sky, sea and land originated in which indigenous culture?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "The Lusitania was sunk, with much loss of life, on May 7th of which year?",
+    "golden_answers": [
+      "1915"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the collective noun for rhinoceri?",
+    "golden_answers": [
+      "crash"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which opera by Richard Strauss was banned in London by the Lord Chamberlains’s Office until 1907?",
+    "golden_answers": [
+      "Salome"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who killed John F Kennedy?",
+    "golden_answers": [
+      "Lee Harvey Oswald"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who was the second wife of US actor Tom Cruise?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "John Crome and John Sell Cotman were associated with which provincial art movement founded in 1803?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "US comedian, singer and actress Fania Borach, born in October 1891, was better known by what name?",
+    "golden_answers": [
+      "Fania Borach"
+    ],
+    "context": []
+  },
+  {
+    "question": "In the 'Toy Story' series of animated films, which character is voiced by Don Rickles?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which Belgian in 1969, was the first man to win all three major prizesin the Tour de France?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which amendment to the US constitution provides freedom of religion, assembly, speech and the press?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What's another popular name for the wood anemone?",
+    "golden_answers": [
+      "windflower"
+    ],
+    "context": []
+  },
+  {
+    "question": "The Watergate Complex is in which area of Washington DC?",
+    "golden_answers": [
+      "Foggy Bottom"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the longest race in the heptathlon?",
+    "golden_answers": [
+      "800 metres"
+    ],
+    "context": []
+  },
+  {
+    "question": "Born in Paris in 1848, he pained many pictures of Polynesian life and died in the Marquesas Islands in 1903. Who was he?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which fruit from Seville in Spain is usually used to make marmalade?",
+    "golden_answers": [
+      "Orange"
+    ],
+    "context": []
+  },
+  {
+    "question": "For what does the I stand in the organisation FBI?",
+    "golden_answers": [
+      "Bureau of Investigation"
+    ],
+    "context": []
+  },
+  {
+    "question": "At which cricket ground, in 1953, did England win the Ashes for the first time since 1933?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "\"The word \"\"Scandinavian\"\" refers to which part of the world?\"",
+    "golden_answers": [
+      "Northern Europe"
+    ],
+    "context": []
+  },
+  {
+    "question": "In which city is Da Vinci's Last Supper on display?",
+    "golden_answers": [
+      "Milan"
+    ],
+    "context": []
+  },
+  {
+    "question": "In an opera, whose lover was Cavaradossi?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which English city has districts named Belgrave, Stoneygate and Aylestone?",
+    "golden_answers": [
+      "Leicester"
+    ],
+    "context": []
+  },
+  {
+    "question": "Sine, cosine and tangent are the three most familiar functions in which branch of mathematics?",
+    "golden_answers": [
+      "Trig"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which Australian hard-rock band was formed by Angus and Malcolm Young?",
+    "golden_answers": [
+      "AC/DC"
+    ],
+    "context": []
+  },
+  {
+    "question": "\"In the \"\"Harry Potter\"\" books, students board the train to Hogwarts at Platform 9+34. Which London railway station has erected a sign at a wall between tracks 9 and 10 to commemorate this?\"",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What name is usually given to the larva of a click beetle ?",
+    "golden_answers": [
+      "Melanotus"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who won the Super Bowl in 2006?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What is the full surname of the title character in ‘Goodbye, Mr. Chips’?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Who wrote the screenplay for 'You Only Live Twice'?",
+    "golden_answers": [
+      "Roald Dahl"
+    ],
+    "context": []
+  },
+  {
+    "question": "What famous marque of motorcycle was Lawrence of Arabia riding when he was tragically killed in Dorset in 1936?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Henri IV was the first French king of which House in 1589?",
+    "golden_answers": [
+      "Bourbon"
+    ],
+    "context": []
+  },
+  {
+    "question": "\"In 1895, William G Morgan, a YMCA physical education director in Massachusetts, USA, created \"\"Mintonette\"\", a game for older people as an indoor sport less rough than basketball. What is it called now?\"",
+    "golden_answers": [
+      "Volleyball"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who married Captain Mark Phillips at Westminster Abbey in November 1973?",
+    "golden_answers": [
+      "Princess Anne"
+    ],
+    "context": []
+  },
+  {
+    "question": "What was the name of the river, 200 m north of Rome, where returning generals disbanded their armies when returning from campaigns to keep order in or expand the Roman Empire?",
+    "golden_answers": [
+      "Rubicon River"
+    ],
+    "context": []
+  },
+  {
+    "question": "What item of military clothing is a Sam Browne?",
+    "golden_answers": [
+      "belt"
+    ],
+    "context": []
+  },
+  {
+    "question": "Two London venues hosted matches at the 1966 Football World Cup. Wembley Stadium was one. Name the other.",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What colour is the Crush, a song from the 1988 album ‘Green’ by REM?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Herb Alpert and Jerry Moss founded which American record label in 1962?",
+    "golden_answers": [
+      "A & M Records"
+    ],
+    "context": []
+  },
+  {
+    "question": "The 1999 film 10 Things I Hate About You starring Julia Stiles and Heath Ledger is based on which of Shakespeare's plays?",
+    "golden_answers": [
+      "The Taming of the Shrew"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which pop group consists of Alex Turner, Jamie Cook, Matt Helders and Nick O'Malley?",
+    "golden_answers": [
+      "Arctic Monkeys"
+    ],
+    "context": []
+  },
+  {
+    "question": "In Einstein's e=mc ,what does the 'c' represent?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What is the only substance that can harm Superman?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "When he published his Theory of Special relativity in 1905, Albert Einstein was working as a patent clerk in which Swiss city?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which chemical element is prominently used in laptop batteries and antidepressant medication?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Whirligig and Longhorn are types of which creature?",
+    "golden_answers": [
+      "The beetle"
+    ],
+    "context": []
+  },
+  {
+    "question": "In which English city are the Guru Nanak Sikh Museum and the National Space Centre?",
+    "golden_answers": [
+      "Leicester"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is a district called which is under the pastoral care of a bishop in the Christian church?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "'While we were marching through Georgia' is a song of the American Civil War. Which union general led the march through Georgia in 1864?",
+    "golden_answers": [
+      "Sherman"
+    ],
+    "context": []
+  },
+  {
+    "question": "The Beatles recorded only one song from a Broadway musical Till There Was You, from which musical did it come?",
+    "golden_answers": [
+      "Marian Paroo"
+    ],
+    "context": []
+  },
+  {
+    "question": "What nickname was given to German Chancellor Otto Van Bismarck?",
+    "golden_answers": [
+      "Iron Chancellor"
+    ],
+    "context": []
+  },
+  {
+    "question": "In which year did all of the following occur: QE2 arrives in New York on her maiden voyage, the Kray twins were jailed for life and Boeing 747 makes its first test flight?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What is the name of the cyclist from the Isle of Man who won six stages in the 2009 Tour de France?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Born in 1964, which model is nicknamed The Body?",
+    "golden_answers": [
+      "Elle Macpherson"
+    ],
+    "context": []
+  },
+  {
+    "question": "The Granta is another name for which English river",
+    "golden_answers": [
+      "The Cam"
+    ],
+    "context": []
+  },
+  {
+    "question": "During which War did the Battle of Corunna take place?",
+    "golden_answers": [
+      "Armée d'Espagne"
+    ],
+    "context": []
+  },
+  {
+    "question": "When was the Fifth, and current, Republic established in France?",
+    "golden_answers": [
+      "1958"
+    ],
+    "context": []
+  },
+  {
+    "question": "b Name one of the 3 'J's for which Dundee is traditionally known?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "The natives of which English county are known as Moonrakers?",
+    "golden_answers": [
+      "Wilts"
+    ],
+    "context": []
+  },
+  {
+    "question": "Picasso moved to Paris in 1901 but where was he born?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What holiday comes the day after Halloween?",
+    "golden_answers": [
+      "all saints"
+    ],
+    "context": []
+  },
+  {
+    "question": "\"Which American/British band reached number one in the UK pop charts in January 1980 with the record \"\"Brass in Pocket\"\" ?\"",
+    "golden_answers": [
+      "The Pretenders"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who won a record ninth Wimbledon singles title in 1990?",
+    "golden_answers": [
+      "Martina Navratilova"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who plays the role of Lieutenant Aldo Raine in the 2009 film ‘Inglorious Basterds’?",
+    "golden_answers": [
+      "Brad Pitt"
+    ],
+    "context": []
+  },
+  {
+    "question": "How old was Macaulay Culkin when he was cast for his role in Home Alone?",
+    "golden_answers": [
+      "9"
+    ],
+    "context": []
+  },
+  {
+    "question": "Coventry Cathedra! is dedicated to which Saint?",
+    "golden_answers": [
+      "St Michael"
+    ],
+    "context": []
+  },
+  {
+    "question": "What boy band shared its name with a type of Mexican soup?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What word prefixes the following to make four new words?",
+    "golden_answers": [
+      "Man"
+    ],
+    "context": []
+  },
+  {
+    "question": "Lula da Silva was re-elected President of which South American country in 2006?",
+    "golden_answers": [
+      "Brazil"
+    ],
+    "context": []
+  },
+  {
+    "question": "Windlock and 2 Foot were types of which weapon used in the Middle Ages?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which city in Cambridge shire was the stronghold of Anglo-Saxon rebel 'Hereward the Wake'?",
+    "golden_answers": [
+      "Ely"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which European city is served by 'Malpensa Airport'?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What was the name of the scheme approved by U S Congress in 1948 for the long term financing of the reconstruction of Europe following World War II?",
+    "golden_answers": [
+      "European Recovery Program"
+    ],
+    "context": []
+  },
+  {
+    "question": "American films use which fictional area code in telephone numbers?",
+    "golden_answers": [
+      "555"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who succeeded Betty Boothroyd as Speaker of the House of Commons, in 2000?",
+    "golden_answers": [
+      "Michael Martin"
+    ],
+    "context": []
+  },
+  {
+    "question": "Perdita is a moon of which planet in the Solar System",
+    "golden_answers": [
+      "Uranus"
+    ],
+    "context": []
+  },
+  {
+    "question": "As at 2008 which corporation owns the brands Duracell, Braun and Gillette?",
+    "golden_answers": [
+      "P & G"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which country started the Second Balkan War in 1913 by invading Greece and Serbia?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What astronomical instrument was used in Classical Antiquity and through the medieval Islamic world, the Middle Ages and the Renaissance by astronomers, navigators, and astrologers to locate and predict the positions of the Sun, Moon, planets and stars, determine local time or latitude, for surveying and to cast horoscopes?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Who was the commander of the Confederate Army of Northern Virginia?",
+    "golden_answers": [
+      "General Robert E. Lee"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the name of the Barlow’s border terrier in Coronation Street?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "On what date does St George's Day fall?",
+    "golden_answers": [
+      "April 23"
+    ],
+    "context": []
+  },
+  {
+    "question": "May 29, 1848 saw the Badger State enter the Union as the 30th state. What is its official name?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "In Shakespeare's 'Two Gentlemen Of Verona', which character hasa servant called 'Speed'?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "\"Which cable suspension road bridge, known as \"\"Galloping Gertie\"\", was completely destroyed due to \"\"aeroelastic flutter\"\" on 7 November 1940?\"",
+    "golden_answers": [
+      "Tacoma Narrows Bridge"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who famously sang Have Yourself A Merry Little Christmas in the film Meet Me In St Louis?",
+    "golden_answers": [
+      "Judy Garland"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the oxygen-carrying protein found in the red blood cells of the body?",
+    "golden_answers": [
+      "Hemoglobin"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who is the MP for Sheffield Hallam?",
+    "golden_answers": [
+      "Nicholas William Peter Clegg"
+    ],
+    "context": []
+  },
+  {
+    "question": "Named after US economist Arthur Laffer, his eponymous Curve refers graphically to notional/optimal government revenues according to levels of?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What satirical musical by Kyle Jarrow about L. Ron Hubbard that pokes fun at his science fiction writing and personal beliefs, was originally presented in 2003 in New York City by Les Freres Corbusier (winning an Obie Award) and received a Garland Award for the director for the 2004 Los Angeles production?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Who is the only African footballer, to have won the FIFA World Player of the Year award?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Who is the famous mother of Elijah Blue?",
+    "golden_answers": [
+      "Cher"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which vitamin is also called tocopherol?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which song especially written for the film version of Les Miserables was nominated for an Oscar for Best Song?",
+    "golden_answers": [
+      "Suddenly"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which metallic element has the atomic number 26?",
+    "golden_answers": [
+      "iron"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which opera by Rossini has the alternative title The Useless Precaution?",
+    "golden_answers": [
+      "The Barber of Seville"
+    ],
+    "context": []
+  },
+  {
+    "question": "Jumpman’s goal is to save the Lady from the giant ape in which 1981 arcade game?",
+    "golden_answers": [
+      "Donkey Kong"
+    ],
+    "context": []
+  },
+  {
+    "question": "In the Bible, who demanded the head of 'John the Baptist'?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Jason Lee Scott, Zack Taylor, Billy Cranston, Trini Kwan and Kimberly Hart were the orignal members of which group?",
+    "golden_answers": [
+      "Dragon Dagger"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which actress was married to Orson Welles from 1943 to 1948 ?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which 2010 film stars Mila Kunis as Lily and Natalie Portman as Nina Sayers?",
+    "golden_answers": [
+      "Black Swan"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which pop singer has had perfumes called Curious, Fantasy, Midnight Fantasy, Hidden Fantasy  and Circus Fantasy?",
+    "golden_answers": [
+      "Britney Spears"
+    ],
+    "context": []
+  },
+  {
+    "question": "What was the name of the Archbishop of Canterbury’s envoy, who was taken hostage in Lebanon in 1987?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What is generally considered to be the largest naval battle of World War II and by some to be the largest naval battle in history, and the first battle in which Japanese aircraft carried out organized kamikaze attacks?",
+    "golden_answers": [
+      "The Battle of Leyte Gulf"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which singer wrote the hit songs 'My Way' for Frank Sinatra and 'She's A Lady' for Tom Jones?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Frontier legend William H. Bonney, ultimately killed by Sheriff Pat Garrett, gained notoriety under what pseudonym?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "Which classic 1966 film by Gillo Pontecorvo was shown in the Pentagon in 2003 with the flyer reading as follows? How to win a battle against terrorism and lose the war of ideas. Children shoot soldiers at point-blank range. Women plant bombs in cafes. Soon the entire Arab population builds to a mad fervor. Sound familiar? The French have a plan. It succeeds tactically, but fails strategically. To understand why, come to a rare showing of this film.",
+    "golden_answers": [
+      "La battaglia di Algeri"
+    ],
+    "context": []
+  },
+  {
+    "question": "\"Anything you can do\"\" and \"\"There's no business like show business\"\" are songs from which musical?\"",
+    "golden_answers": [
+      "Annie Get Your Gun"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which 1962 film starring Frank Sinatra was remade in 2004 starring Denzel Washington?",
+    "golden_answers": [
+      "Manchurian Candidate"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who played Sam the piano player and sang As Time Goes By in the film Casablanca",
+    "golden_answers": [
+      "Dooley Wilson"
+    ],
+    "context": []
+  },
+  {
+    "question": "How many theses were nailed to a church door by Martin Luther in 1517 (generally accepted to be the Castle Church in Wittenberg, Germany, on All Saints Eve, 31 October)?",
+    "golden_answers": [
+      "95"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which actress appeared as a gangster's mollin 'Singing In The Rain' and also starred with Fred Astaire in 'Silk Stockings'?",
+    "golden_answers": [],
+    "context": []
+  },
+  {
+    "question": "What college in New Cross is part of the University of London?",
+    "golden_answers": [
+      "Goldsmiths"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which hard-man American actor was married to Jill Ireland from 1968 until her death in 1990?",
+    "golden_answers": [
+      "Charles Buchinsky"
+    ],
+    "context": []
+  },
+  {
+    "question": "Cardinal Richelieu was Chief Minister of the French King from 1624 to 1642. Which king (name and regnal number)?",
+    "golden_answers": [
+      "Louis XIII"
+    ],
+    "context": []
+  },
+  {
+    "question": "If Jane Goodall is to chimpanzees, Birutė Galdikas, who worked for a long time in Borneo is to what animal?",
+    "golden_answers": [
+      "orangutan"
+    ],
+    "context": []
+  },
+  {
+    "question": "In a 2005 vote, Father Damien, Jacques Brel, Mercator and Peter Paul Rubens all finished in the top-10 list of the greatest people of what country?",
+    "golden_answers": [
+      "Belgian"
+    ],
+    "context": []
+  },
+  {
+    "question": "In which year were Concorde planes retired from service?",
+    "golden_answers": [
+      "2003"
+    ],
+    "context": []
+  },
+  {
+    "question": "A precursor to today's United Nations, what inter-governmental organization was pushed by President Woodrow Wilson and disbanded itself on April 20, 1946?",
+    "golden_answers": [
+      "The League of Nations"
+    ],
+    "context": []
+  },
+  {
+    "question": "On which motorway would you find the Norton Canes service area?",
+    "golden_answers": [
+      "M6 Toll"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which gas constitutes the majority of the mass in the four giant planets of the Solar System ?",
+    "golden_answers": [
+      "hydrogen"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which artist produced many paintings of Jane Avril at The Moulin Rouge?",
+    "golden_answers": [
+      "Toulouse-Lautrec"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who was the Roman equivalent of the Greek God of Love, Eros?",
+    "golden_answers": [
+      "Cupid"
+    ],
+    "context": []
+  },
+  {
+    "question": "Whic male member i missing from the following list of the group 'The Osmonds' - Donny, Jimmy, Alan, wayne and Jay?",
+    "golden_answers": [
+      "Merrill"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which island, the third largest in the world, is divided between Indonesia, Malaysia and Brunei?",
+    "golden_answers": [
+      "Borneo"
+    ],
+    "context": []
+  },
+  {
+    "question": "In an operation headed by Ali Hassan al-Majid (a cousin of then Iraqi leader Saddam Hussein), Iraq used the deadly nerve gas Sarin against what minority in 1987 and 1988?",
+    "golden_answers": [],
+    "context": []
+  }
+]

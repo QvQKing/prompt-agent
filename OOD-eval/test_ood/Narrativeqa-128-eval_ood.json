@@ -1,0 +1,898 @@
+[
+  {
+    "question": "Why does he find reason to doubt the choice of bride?",
+    "golden_answers": [
+      "[{'text': 'The arrival of Countess Elena Olenska.', 'tokens': array(['The', 'arrival', 'of', 'Countess', 'Elena', 'Olenska', '.'],\n       dtype=object)}\n {'text': 'he starts falling for Ellen', 'tokens': array(['he', 'starts', 'falling', 'for', 'Ellen'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Jack pretend to be?",
+    "golden_answers": [
+      "[{'text': 'Ensign Beverley, a poor officer.  ', 'tokens': array(['Ensign', 'Beverley', ',', 'a', 'poor', 'officer', '.'],\n       dtype=object)}\n {'text': 'A poor soldier', 'tokens': array(['A', 'poor', 'soldier'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Henry do?",
+    "golden_answers": [
+      "[{'text': \"Steal the family's trust fund\", 'tokens': array(['Steal', 'the', 'family', 's', 'trust', 'fund'], dtype=object)}\n {'text': 'He steals from the family trust fund.', 'tokens': array(['He', 'steals', 'from', 'the', 'family', 'trust', 'fund', '.'],\n       dtype=object)}                                                                                                              ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who was Katrina Van Tassel?",
+    "golden_answers": [
+      "[{'text': 'The daughter of Baltus Van Tassel', 'tokens': array(['The', 'daughter', 'of', 'Baltus', 'Van', 'Tassel'], dtype=object)}\n {'text': \"Baltus Van Tassel's only child.\", 'tokens': array(['Baltus', 'Van', 'Tassel', 's', 'only', 'child', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Marcus Wright sign over to Dr. Serena Kogan before his execution?",
+    "golden_answers": [
+      "[{'text': 'His body for medical research.', 'tokens': array(['His', 'body', 'for', 'medical', 'research', '.'], dtype=object)}\n {'text': 'His body ', 'tokens': array(['His', 'body'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What time does the Traveller orginate from?",
+    "golden_answers": [
+      "[{'text': 'Victorian times.', 'tokens': array(['Victorian', 'times', '.'], dtype=object)}\n {'text': 'Victorian time.', 'tokens': array(['Victorian', 'time', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How many men are in each army for Palamon and Arcite?",
+    "golden_answers": [
+      "[{'text': '100 men fight for each.', 'tokens': array(['100', 'men', 'fight', 'for', 'each', '.'], dtype=object)}\n {'text': '100 men each', 'tokens': array(['100', 'men', 'each'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who kills David?",
+    "golden_answers": [
+      "[{'text': 'Juliet', 'tokens': array(['Juliet'], dtype=object)}\n {'text': 'Juliet.', 'tokens': array(['Juliet', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "In addition to the human crew and robots, what does the Endurance carry with it on the trip through the wormhole?",
+    "golden_answers": [
+      "[{'text': '5,000 human embryos.', 'tokens': array(['5,000', 'human', 'embryos', '.'], dtype=object)}\n {'text': '5,000 frozen embryos', 'tokens': array(['5,000', 'frozen', 'embryos'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the Reverend Joseph Crawley accused of stealing?",
+    "golden_answers": [
+      "[{'text': 'a Cheque', 'tokens': array(['a', 'Cheque'], dtype=object)}\n {'text': 'A cheque', 'tokens': array(['A', 'cheque'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What other event occurs on the day the oath ends?",
+    "golden_answers": [
+      "[{'text': \"Ruthven and Aubrey's sister's wedding.\", 'tokens': array(['Ruthven', 'and', 'Aubrey', 's', 'sister', 's', 'wedding', '.'],\n       dtype=object)}\n {'text': \"Ruthven married Aubrey's sister\", 'tokens': array(['Ruthven', 'married', 'Aubrey', 's', 'sister'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How did Holmes feel when Watson touched the items in his room?",
+    "golden_answers": [
+      "[{'text': 'He was angry', 'tokens': array(['He', 'was', 'angry'], dtype=object)}\n {'text': 'He got mad.', 'tokens': array(['He', 'got', 'mad', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does the law of the wilderness discuss?",
+    "golden_answers": [
+      "[{'text': 'The mountaineers.', 'tokens': array(['The', 'mountaineers', '.'], dtype=object)}\n {'text': 'It discusses the mountaineers persistence to become independent, developing a tight family bond, and their relationship with the government.', 'tokens': array(['It', 'discusses', 'the', 'mountaineers', 'persistence', 'to',\n        'become', 'independent', ',', 'developing', 'a', 'tight', 'family',\n        'bond', ',', 'and', 'their', 'relationship', 'with', 'the',\n        'government', '.'], dtype=object)}                                                                                                                                                                                               ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What secret does Perdita Durango know?",
+    "golden_answers": [
+      "[{'text': 'there is a contract out to kill Sailor', 'tokens': array(['there', 'is', 'a', 'contract', 'out', 'to', 'kill', 'Sailor'],\n       dtype=object)}\n {'text': 'That Sailor is under contract to be killed. ', 'tokens': array(['That', 'Sailor', 'is', 'under', 'contract', 'to', 'be', 'killed',\n        '.'], dtype=object)}                                                                                                                 ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who makes several attempts to court Maud?",
+    "golden_answers": [
+      "[{'text': 'Dudley tries to court Maud.', 'tokens': array(['Dudley', 'tries', 'to', 'court', 'Maud', '.'], dtype=object)}\n {'text': 'dudley', 'tokens': array(['dudley'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who is in love with Johanna?",
+    "golden_answers": [
+      "[{'text': 'Both Anthony and Turpin (though Turpin is more in lust than love).', 'tokens': array(['Both', 'Anthony', 'and', 'Turpin', '(', 'though', 'Turpin', 'is',\n        'more', 'in', 'lust', 'than', 'love', ')', '.'], dtype=object)}\n {'text': 'Anthony.', 'tokens': array(['Anthony', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "The History discusses the socially and culturally degenerative effects of war on what?",
+    "golden_answers": [
+      "[{'text': 'Humanity', 'tokens': array(['Humanity'], dtype=object)}\n {'text': 'humanity', 'tokens': array(['humanity'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Sonny use as a shield when he firsts exits the bank?",
+    "golden_answers": [
+      "[{'text': 'Sylvia, the head teller. ', 'tokens': array(['Sylvia', ',', 'the', 'head', 'teller', '.'], dtype=object)}\n {'text': 'Sylvia', 'tokens': array(['Sylvia'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who saves Mace and Sandra from being bit by a snake while they sleep?",
+    "golden_answers": [
+      "[{'text': 'Nathan', 'tokens': array(['Nathan'], dtype=object)}\n {'text': 'Nathan', 'tokens': array(['Nathan'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "When does Clara finally leave the house?",
+    "golden_answers": [
+      "[{'text': 'When it burns down.', 'tokens': array(['When', 'it', 'burns', 'down', '.'], dtype=object)}\n {'text': 'When burns down', 'tokens': array(['When', 'burns', 'down'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What pattern is the fabric of the dress?",
+    "golden_answers": [
+      "[{'text': 'Wagnerian Plaid', 'tokens': array(['Wagnerian', 'Plaid'], dtype=object)}\n {'text': 'Wagnerian plaid', 'tokens': array(['Wagnerian', 'plaid'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What good will the Dormouses not exchange for returns?",
+    "golden_answers": [
+      "[{'text': 'Candles.', 'tokens': array(['Candles', '.'], dtype=object)}\n {'text': 'candle ends', 'tokens': array(['candle', 'ends'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Williamson want, in order to give away some of the Glengarry leads to Shelley?",
+    "golden_answers": [
+      "[{'text': 'Cash in advance', 'tokens': array(['Cash', 'in', 'advance'], dtype=object)}\n {'text': 'Cash, in advance of any sales Shelley makes.', 'tokens': array(['Cash', ',', 'in', 'advance', 'of', 'any', 'sales', 'Shelley',\n        'makes', '.'], dtype=object)}                                                                                                    ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How is Clermont different from Bussy?",
+    "golden_answers": [
+      "[{'text': 'Clermont is a Christian Stoic.', 'tokens': array(['Clermont', 'is', 'a', 'Christian', 'Stoic', '.'], dtype=object)}\n {'text': 'Clermont is a Christian Stoic', 'tokens': array(['Clermont', 'is', 'a', 'Christian', 'Stoic'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Where did Madge met Norman?",
+    "golden_answers": [
+      "[{'text': 'Viceroy Club', 'tokens': array(['Viceroy', 'Club'], dtype=object)}\n {'text': 'Viceroy Club', 'tokens': array(['Viceroy', 'Club'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who tired to seduce Christy but failed?",
+    "golden_answers": [
+      "[{'text': 'Quin', 'tokens': array(['Quin'], dtype=object)}\n {'text': 'Peegen', 'tokens': array(['Peegen'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does the artist's rendering look like?",
+    "golden_answers": [
+      "[{'text': 'Verbal', 'tokens': array(['Verbal'], dtype=object)}\n {'text': 'Verbal.', 'tokens': array(['Verbal', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Riddick tell Jack to tell everyone they meet?",
+    "golden_answers": [
+      "[{'text': 'That Riddick died on the planet.', 'tokens': array(['That', 'Riddick', 'died', 'on', 'the', 'planet', '.'],\n       dtype=object)}\n {'text': 'That Riddick died on the planet below', 'tokens': array(['That', 'Riddick', 'died', 'on', 'the', 'planet', 'below'],\n       dtype=object)}                                                                                                          ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who was Esther Bloomenbergensteinenthal?",
+    "golden_answers": [
+      "[{'text': \"Mordechai's love interest.\", 'tokens': array(['Mordechai', 's', 'love', 'interest', '.'], dtype=object)}\n {'text': \"Mordecai's love interest and daughter of the leader of the Jewish Justice League\", 'tokens': array(['Mordecai', 's', 'love', 'interest', 'and', 'daughter', 'of',\n        'the', 'leader', 'of', 'the', 'Jewish', 'Justice', 'League'],\n       dtype=object)}                                                                                                                                                       ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "With whom does Benjamin have an affair with?",
+    "golden_answers": [
+      "[{'text': 'Elizabeth Abbot', 'tokens': array(['Elizabeth', 'Abbot'], dtype=object)}\n {'text': 'Elizabeth Abbot', 'tokens': array(['Elizabeth', 'Abbot'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is Dick Tipton's older brother's name?",
+    "golden_answers": [
+      "[{'text': 'Benjamin', 'tokens': array(['Benjamin'], dtype=object)}\n {'text': 'Benjamin', 'tokens': array(['Benjamin'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why did Don Sanche not die during the duel?",
+    "golden_answers": [
+      "[{'text': 'He was granted mercy and allowed to live. ', 'tokens': array(['He', 'was', 'granted', 'mercy', 'and', 'allowed', 'to', 'live',\n        '.'], dtype=object)}\n {'text': 'Rodrigue granted him mercy', 'tokens': array(['Rodrigue', 'granted', 'him', 'mercy'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who is arreted for killing Harry Carson?",
+    "golden_answers": [
+      "[{'text': 'Jem Wilson', 'tokens': array(['Jem', 'Wilson'], dtype=object)}\n {'text': 'Jem Wilson', 'tokens': array(['Jem', 'Wilson'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Where does the money end up?",
+    "golden_answers": [
+      "[{'text': 'Hidden under the floorboards.', 'tokens': array(['Hidden', 'under', 'the', 'floorboards', '.'], dtype=object)}\n {'text': 'The money ends up under the floorboards.', 'tokens': array(['The', 'money', 'ends', 'up', 'under', 'the', 'floorboards', '.'],\n       dtype=object)}                                                                                                                    ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What do Drake and Goodwin notice about the aurora like effect?",
+    "golden_answers": [
+      "[{'text': 'It seems to be deliberate', 'tokens': array(['It', 'seems', 'to', 'be', 'deliberate'], dtype=object)}\n {'text': 'effect is deliberate', 'tokens': array(['effect', 'is', 'deliberate'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How does Roy Glenister almost loose his rights to the Midas mine?",
+    "golden_answers": [
+      "[{'text': 'By gambling.', 'tokens': array(['By', 'gambling', '.'], dtype=object)}\n {'text': 'a night of reckless gambling', 'tokens': array(['a', 'night', 'of', 'reckless', 'gambling'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What evidence did Smith put in his pocket?",
+    "golden_answers": [
+      "[{'text': 'the ivory box he sent to Holmes by post', 'tokens': array(['the', 'ivory', 'box', 'he', 'sent', 'to', 'Holmes', 'by', 'post'],\n       dtype=object)}\n {'text': 'a small ivory box with a sharp spring', 'tokens': array(['a', 'small', 'ivory', 'box', 'with', 'a', 'sharp', 'spring'],\n       dtype=object)}                                                                                                             ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is Eve's real name?",
+    "golden_answers": [
+      "[{'text': 'Gertrude Slojinski', 'tokens': array(['Gertrude', 'Slojinski'], dtype=object)}\n {'text': 'Gertrude Slojinski', 'tokens': array(['Gertrude', 'Slojinski'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is in David's plans after the kiss?",
+    "golden_answers": [
+      "[{'text': 'The plan is blank', 'tokens': array(['The', 'plan', 'is', 'blank'], dtype=object)}\n {'text': 'Whatever he wants to do.', 'tokens': array(['Whatever', 'he', 'wants', 'to', 'do', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What song will Sailor only sing to his wife?",
+    "golden_answers": [
+      "[{'text': 'Love me Tender', 'tokens': array(['Love', 'me', 'Tender'], dtype=object)}\n {'text': 'Love Me Tender', 'tokens': array(['Love', 'Me', 'Tender'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who are the Ku Klux Clan planning on hanging?",
+    "golden_answers": [
+      "[{'text': 'Tommy', 'tokens': array(['Tommy'], dtype=object)}\n {'text': 'Tommy', 'tokens': array(['Tommy'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What happens to Ronna before she can be shot?",
+    "golden_answers": [
+      "[{'text': 'She gets hit by a car', 'tokens': array(['She', 'gets', 'hit', 'by', 'a', 'car'], dtype=object)}\n {'text': 'She gets hit by a car.', 'tokens': array(['She', 'gets', 'hit', 'by', 'a', 'car', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Vivie vow never to do after taking an office job and breaking up with Frank?",
+    "golden_answers": [
+      "[{'text': 'Never to marry.', 'tokens': array(['Never', 'to', 'marry', '.'], dtype=object)}\n {'text': 'Marry.', 'tokens': array(['Marry', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Ellie originally intend to marry?",
+    "golden_answers": [
+      "[{'text': 'Boss Mangan. ', 'tokens': array(['Boss', 'Mangan', '.'], dtype=object)}\n {'text': 'Boss Mangan', 'tokens': array(['Boss', 'Mangan'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does the Recluse realize after he shoots his dog?",
+    "golden_answers": [
+      "[{'text': 'The Recluse has contracted a fungal disease. ', 'tokens': array(['The', 'Recluse', 'has', 'contracted', 'a', 'fungal', 'disease',\n        '.'], dtype=object)}\n {'text': 'That he has also contracted the fungal disease.', 'tokens': array(['That', 'he', 'has', 'also', 'contracted', 'the', 'fungal',\n        'disease', '.'], dtype=object)}                                                                                                  ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What do the boys do in winter?",
+    "golden_answers": [
+      "[{'text': \"They build a fort on Slatter's Hill and get into snowball fights with rival boys.\", 'tokens': array(['They', 'build', 'a', 'fort', 'on', 'Slatter', 's', 'Hill', 'and',\n        'get', 'into', 'snowball', 'fights', 'with', 'rival', 'boys', '.'],\n       dtype=object)}\n {'text': 'Build a snow fort on Slatters Hill and engage in a snowball fight with rival boys. ', 'tokens': array(['Build', 'a', 'snow', 'fort', 'on', 'Slatters', 'Hill', 'and',\n        'engage', 'in', 'a', 'snowball', 'fight', 'with', 'rival', 'boys',\n        '.'], dtype=object)}                                                                                                                                                    ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How was Peter like all infants?",
+    "golden_answers": [
+      "[{'text': 'He was part bird.', 'tokens': array(['He', 'was', 'part', 'bird', '.'], dtype=object)}\n {'text': 'He used to be part bird.', 'tokens': array(['He', 'used', 'to', 'be', 'part', 'bird', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why does Simon want to run away from the orphanage?",
+    "golden_answers": [
+      "[{'text': 'he is treated badly there', 'tokens': array(['he', 'is', 'treated', 'badly', 'there'], dtype=object)}\n {'text': 'Simon wants to get away from the horrible treatment he received at the orphanage.', 'tokens': array(['Simon', 'wants', 'to', 'get', 'away', 'from', 'the', 'horrible',\n        'treatment', 'he', 'received', 'at', 'the', 'orphanage', '.'],\n       dtype=object)}                                                                                                                                                            ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What happens to Paula's castle?",
+    "golden_answers": [
+      "[{'text': 'It burns down but Somerset vows to build a new, modern one.', 'tokens': array(['It', 'burns', 'down', 'but', 'Somerset', 'vows', 'to', 'build',\n        'a', 'new', ',', 'modern', 'one', '.'], dtype=object)}\n {'text': 'The castle is burnt', 'tokens': array(['The', 'castle', 'is', 'burnt'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Joe Doe turn out to be?",
+    "golden_answers": [
+      "[{'text': 'William Dane McCall, a surgeon who is co-heir to a very prominent family fortune', 'tokens': array(['William', 'Dane', 'McCall', ',', 'a', 'surgeon', 'who', 'is',\n        'co-heir', 'to', 'a', 'very', 'prominent', 'family', 'fortune'],\n       dtype=object)}\n {'text': 'William McCall.', 'tokens': array(['William', 'McCall', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who (or what) kills laroche?",
+    "golden_answers": [
+      "[{'text': 'An alligator', 'tokens': array(['An', 'alligator'], dtype=object)}\n {'text': 'An alligator.F', 'tokens': array(['An', 'alligator.F'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the name of Dollarhyde's blind co-worker?",
+    "golden_answers": [
+      "[{'text': 'Reba', 'tokens': array(['Reba'], dtype=object)}\n {'text': 'Reba McClane.', 'tokens': array(['Reba', 'McClane', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Bruce automatically grants everyone's prayers. What does this cause?",
+    "golden_answers": [
+      "[{'text': 'Chaos', 'tokens': array(['Chaos'], dtype=object)}\n {'text': 'Plunged the city into chaos', 'tokens': array(['Plunged', 'the', 'city', 'into', 'chaos'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who threatens to murder Mr. Garfield by writing 187 on his textbook?",
+    "golden_answers": [
+      "[{'text': 'Dennis Broadway', 'tokens': array(['Dennis', 'Broadway'], dtype=object)}\n {'text': 'Dennis Broadway.', 'tokens': array(['Dennis', 'Broadway', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What type of boat did Brody and Ellen take to rescue Mike and his friends?",
+    "golden_answers": [
+      "[{'text': 'They took the police boat', 'tokens': array(['They', 'took', 'the', 'police', 'boat'], dtype=object)}\n {'text': 'police boat', 'tokens': array(['police', 'boat'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How dos Samantha feel about Corey's death?",
+    "golden_answers": [
+      "[{'text': 'She is devastated.', 'tokens': array(['She', 'is', 'devastated', '.'], dtype=object)}\n {'text': 'She is devastated.', 'tokens': array(['She', 'is', 'devastated', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What injury does Hancock suffer when he tries to stop a robbery at a liquor store?",
+    "golden_answers": [
+      "[{'text': \"He's shot in the chest.\", 'tokens': array(['He', 's', 'shot', 'in', 'the', 'chest', '.'], dtype=object)}\n {'text': 'Shot in chest', 'tokens': array(['Shot', 'in', 'chest'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who do the tenants think does all of their kind things?",
+    "golden_answers": [
+      "[{'text': 'Cedric', 'tokens': array(['Cedric'], dtype=object)}\n {'text': 'the child', 'tokens': array(['the', 'child'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is one object that Conroy has with him?",
+    "golden_answers": [
+      "[{'text': 'Zippo Lighter', 'tokens': array(['Zippo', 'Lighter'], dtype=object)}\n {'text': 'A Zippo lighter', 'tokens': array(['A', 'Zippo', 'lighter'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "When did Thomas mention many black intellectuals rising?",
+    "golden_answers": [
+      "[{'text': 'Shortly after the Emancipation.', 'tokens': array(['Shortly', 'after', 'the', 'Emancipation', '.'], dtype=object)}\n {'text': 'after the Emancipation', 'tokens': array(['after', 'the', 'Emancipation'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why does Stanley agree to help Gabriel in the Worldbanc heist after being double-crossed by him?",
+    "golden_answers": [
+      "[{'text': 'He participates in order to get his daughter Holly back.', 'tokens': array(['He', 'participates', 'in', 'order', 'to', 'get', 'his',\n        'daughter', 'Holly', 'back', '.'], dtype=object)}\n {'text': 'to get his daughter back', 'tokens': array(['to', 'get', 'his', 'daughter', 'back'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What date is the beginning of the Normandy Invasion?",
+    "golden_answers": [
+      "[{'text': 'June 6, 1944', 'tokens': array(['June', '6', ',', '1944'], dtype=object)}\n {'text': 'June 6, 1944', 'tokens': array(['June', '6', ',', '1944'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why does Harvey miss  his fligh at Heathrow after he leaves Susan's wedding?",
+    "golden_answers": [
+      "[{'text': 'Because of heavy traffic.', 'tokens': array(['Because', 'of', 'heavy', 'traffic', '.'], dtype=object)}\n {'text': 'heavy traffic', 'tokens': array(['heavy', 'traffic'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Whiile a police officer, what was Deckard's job?",
+    "golden_answers": [
+      "[{'text': 'Blade Runner', 'tokens': array(['Blade', 'Runner'], dtype=object)}\n {'text': 'Track down bio-engineered beings and kill them.', 'tokens': array(['Track', 'down', 'bio-engineered', 'beings', 'and', 'kill', 'them',\n        '.'], dtype=object)}                                                                                                                     ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "In the story, why was farming difficult on Earth in the 21st-century?",
+    "golden_answers": [
+      "[{'text': 'There was a crop blight.', 'tokens': array(['There', 'was', 'a', 'crop', 'blight', '.'], dtype=object)}\n {'text': 'Crop blight', 'tokens': array(['Crop', 'blight'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What circumstance allows Darrow and Anna to continue their previous relationship?",
+    "golden_answers": [
+      "[{'text': 'Anna has recently become a widow.', 'tokens': array(['Anna', 'has', 'recently', 'become', 'a', 'widow', '.'],\n       dtype=object)}\n {'text': 'Anna becomes widowed.', 'tokens': array(['Anna', 'becomes', 'widowed', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What did Schon want Lulu to do after finding out about her infidelities?",
+    "golden_answers": [
+      "[{'text': 'He wanted her to kill herself', 'tokens': array(['He', 'wanted', 'her', 'to', 'kill', 'herself'], dtype=object)}\n {'text': 'He urged her to kill herself', 'tokens': array(['He', 'urged', 'her', 'to', 'kill', 'herself'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who is Vanessa?",
+    "golden_answers": [
+      "[{'text': \"Fait's daughter and Ling's girlfriend\", 'tokens': array(['Fait', 's', 'daughter', 'and', 'Ling', 's', 'girlfriend'],\n       dtype=object)}\n {'text': \"Fait's daughter\", 'tokens': array(['Fait', 's', 'daughter'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who was contemplating suicide?",
+    "golden_answers": [
+      "[{'text': 'The Recluse', 'tokens': array(['The', 'Recluse'], dtype=object)}\n {'text': 'The Recluse', 'tokens': array(['The', 'Recluse'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What secret does Yoda reveal to Luke?",
+    "golden_answers": [
+      "[{'text': \"That Darth Vadar is Luke's father\", 'tokens': array(['That', 'Darth', 'Vadar', 'is', 'Luke', 's', 'father'],\n       dtype=object)}\n {'text': \"that Darth Vader is Luke's father\", 'tokens': array(['that', 'Darth', 'Vader', 'is', 'Luke', 's', 'father'],\n       dtype=object)}                                                                                                  ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "In 1959, what piece of work does Alfred Hitchcock debut?",
+    "golden_answers": [
+      "[{'text': 'North by Northwest', 'tokens': array(['North', 'by', 'Northwest'], dtype=object)}\n {'text': 'North by Northwest', 'tokens': array(['North', 'by', 'Northwest'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Laura do in prison because she cannot cope?",
+    "golden_answers": [
+      "[{'text': 'She tries to commit suicide.', 'tokens': array(['She', 'tries', 'to', 'commit', 'suicide', '.'], dtype=object)}\n {'text': 'She attempts suicide.', 'tokens': array(['She', 'attempts', 'suicide', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Ruth move in with?",
+    "golden_answers": [
+      "[{'text': 'Mr. Benson and his sister Faith', 'tokens': array(['Mr.', 'Benson', 'and', 'his', 'sister', 'Faith'], dtype=object)}\n {'text': \"Faith, Mr. Benson's sister\", 'tokens': array(['Faith', ',', 'Mr.', 'Benson', 's', 'sister'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who paint's lulu's portrait?",
+    "golden_answers": [
+      "[{'text': 'Schwarz', 'tokens': array(['Schwarz'], dtype=object)}\n {'text': 'Schwarz', 'tokens': array(['Schwarz'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does J realize about the boy?",
+    "golden_answers": [
+      "[{'text': 'he is himself.', 'tokens': array(['he', 'is', 'himself', '.'], dtype=object)}\n {'text': 'He realizes the young boy is himself.', 'tokens': array(['He', 'realizes', 'the', 'young', 'boy', 'is', 'himself', '.'],\n       dtype=object)}                                                                                                              ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Where does Frank meet Laura?",
+    "golden_answers": [
+      "[{'text': 'A bar', 'tokens': array(['A', 'bar'], dtype=object)}\n {'text': 'New York.', 'tokens': array(['New', 'York', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why did the women leave the Pakistani's infant baby in a bag in the cold?",
+    "golden_answers": [
+      "[{'text': 'They thought it was a bag of explosives.', 'tokens': array(['They', 'thought', 'it', 'was', 'a', 'bag', 'of', 'explosives',\n        '.'], dtype=object)}\n {'text': 'they were afraid that the bag contained explosives', 'tokens': array(['they', 'were', 'afraid', 'that', 'the', 'bag', 'contained',\n        'explosives'], dtype=object)}                                                                                                        ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How does Eve say her husband died?",
+    "golden_answers": [
+      "[{'text': 'In the war', 'tokens': array(['In', 'the', 'war'], dtype=object)}\n {'text': 'In the war', 'tokens': array(['In', 'the', 'war'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How does Jabba die?",
+    "golden_answers": [
+      "[{'text': 'Princess Leia strangles Jabba to death.', 'tokens': array(['Princess', 'Leia', 'strangles', 'Jabba', 'to', 'death', '.'],\n       dtype=object)}\n {'text': 'Jabba is choked to death by Leia, using the chain he has connected her to him with.', 'tokens': array(['Jabba', 'is', 'choked', 'to', 'death', 'by', 'Leia', ',', 'using',\n        'the', 'chain', 'he', 'has', 'connected', 'her', 'to', 'him',\n        'with', '.'], dtype=object)}                                                                                                                                                 ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What year does King Edward invade Scotland?",
+    "golden_answers": [
+      "[{'text': '1280.', 'tokens': array(['1280', '.'], dtype=object)}\n {'text': '1280.', 'tokens': array(['1280', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "When Mr Wells finally stops in 802,701AD what monument is he close to?",
+    "golden_answers": [
+      "[{'text': 'A spynx.', 'tokens': array(['A', 'spynx', '.'], dtype=object)}\n {'text': 'Towering Sphiyx', 'tokens': array(['Towering', 'Sphiyx'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Blade atempt to sve form Frosts Penthouse?",
+    "golden_answers": [
+      "[{'text': 'Karen', 'tokens': array(['Karen'], dtype=object)}\n {'text': 'Karen Jenson.', 'tokens': array(['Karen', 'Jenson', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Which agent is said to be Thundeheart's reincarnation, according to the natives?",
+    "golden_answers": [
+      "[{'text': 'Ray', 'tokens': array(['Ray'], dtype=object)}\n {'text': 'Ray Levoi.', 'tokens': array(['Ray', 'Levoi', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who falls in love with the narrator?",
+    "golden_answers": [
+      "[{'text': 'Zee', 'tokens': array(['Zee'], dtype=object)}\n {'text': 'zee', 'tokens': array(['zee'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does the 2-year-old girl call herself?",
+    "golden_answers": [
+      "[{'text': 'Bardie.', 'tokens': array(['Bardie', '.'], dtype=object)}\n {'text': 'Bardie. ', 'tokens': array(['Bardie', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What was his job in the military?",
+    "golden_answers": [
+      "[{'text': 'He was a bayonet instructor', 'tokens': array(['He', 'was', 'a', 'bayonet', 'instructor'], dtype=object)}\n {'text': 'He was a bayonet instructor.', 'tokens': array(['He', 'was', 'a', 'bayonet', 'instructor', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What did Tarzan learn in the cabin?",
+    "golden_answers": [
+      "[{'text': ' Tarzan learn that they are order people like him.', 'tokens': array(['Tarzan', 'learn', 'that', 'they', 'are', 'order', 'people',\n        'like', 'him', '.'], dtype=object)}\n {'text': 'Tarzan learns about other humans', 'tokens': array(['Tarzan', 'learns', 'about', 'other', 'humans'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What happens when Gregory and Mrs. Juno confront their spouses?",
+    "golden_answers": [
+      "[{'text': 'They openly talk about their feelings.', 'tokens': array(['They', 'openly', 'talk', 'about', 'their', 'feelings', '.'],\n       dtype=object)}\n {'text': 'at the hotel', 'tokens': array(['at', 'the', 'hotel'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who convinces Marcus to give his body to medical research?",
+    "golden_answers": [
+      "[{'text': 'Dr. Serena Kogan.', 'tokens': array(['Dr.', 'Serena', 'Kogan', '.'], dtype=object)}\n {'text': 'Dr. Serena Kogan', 'tokens': array(['Dr.', 'Serena', 'Kogan'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "When does the story occur?",
+    "golden_answers": [
+      "[{'text': 'On Christmas Eve', 'tokens': array(['On', 'Christmas', 'Eve'], dtype=object)}\n {'text': 'Christmas eve', 'tokens': array(['Christmas', 'eve'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Arnold wants Irena to live with him for what reason?",
+    "golden_answers": [
+      "[{'text': 'to help him get his artistic muse back', 'tokens': array(['to', 'help', 'him', 'get', 'his', 'artistic', 'muse', 'back'],\n       dtype=object)}\n {'text': 'Because she inspires him to be an artist agian.', 'tokens': array(['Because', 'she', 'inspires', 'him', 'to', 'be', 'an', 'artist',\n        'agian', '.'], dtype=object)}                                                                                                         ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What day does the story begin on?",
+    "golden_answers": [
+      "[{'text': 'Christmas Eve', 'tokens': array(['Christmas', 'Eve'], dtype=object)}\n {'text': 'Christmas Eve', 'tokens': array(['Christmas', 'Eve'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How does Roy travel to Nome?",
+    "golden_answers": [
+      "[{'text': 'by ship', 'tokens': array(['by', 'ship'], dtype=object)}\n {'text': 'He gets there on a ship.', 'tokens': array(['He', 'gets', 'there', 'on', 'a', 'ship', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What country does Utah go undercover in?",
+    "golden_answers": [
+      "[{'text': 'France', 'tokens': array(['France'], dtype=object)}\n {'text': 'France', 'tokens': array(['France'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "From whom did Paula's father purchase the medieval castle?",
+    "golden_answers": [
+      "[{'text': 'The De Stancy family', 'tokens': array(['The', 'De', 'Stancy', 'family'], dtype=object)}\n {'text': 'The De Stancy Family', 'tokens': array(['The', 'De', 'Stancy', 'Family'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Jacob goes to Nordrum farm to become what?",
+    "golden_answers": [
+      "[{'text': 'a herdsman', 'tokens': array(['a', 'herdsman'], dtype=object)}\n {'text': 'a herdsman', 'tokens': array(['a', 'herdsman'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What relationship does Benjamin have with one of the men on the tugboats?",
+    "golden_answers": [
+      "[{'text': \"One of the men is Benjamin's father. \", 'tokens': array(['One', 'of', 'the', 'men', 'is', 'Benjamin', 's', 'father', '.'],\n       dtype=object)}\n {'text': 'He is an employee to Captain Mike.', 'tokens': array(['He', 'is', 'an', 'employee', 'to', 'Captain', 'Mike', '.'],\n       dtype=object)}                                                                                                        ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What  was Terra able to do after the war?",
+    "golden_answers": [
+      "[{'text': 'Terra was able to travel beyond Centaurian', 'tokens': array(['Terra', 'was', 'able', 'to', 'travel', 'beyond', 'Centaurian'],\n       dtype=object)}\n {'text': 'travel beyond the Centurian', 'tokens': array(['travel', 'beyond', 'the', 'Centurian'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who is with Capt. Miller when he dies?",
+    "golden_answers": [
+      "[{'text': 'Private Ryan and Private 1st Class Reiben', 'tokens': array(['Private', 'Ryan', 'and', 'Private', '1st', 'Class', 'Reiben'],\n       dtype=object)}\n {'text': 'Reiban and Ryan', 'tokens': array(['Reiban', 'and', 'Ryan'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does David Norris unsuccessfully run for in 2006?",
+    "golden_answers": [
+      "[{'text': 'The US Senate.', 'tokens': array(['The', 'US', 'Senate', '.'], dtype=object)}\n {'text': 'The United States Senate', 'tokens': array(['The', 'United', 'States', 'Senate'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who is Engels?",
+    "golden_answers": [
+      "[{'text': 'The eldest son of textile industrialist', 'tokens': array(['The', 'eldest', 'son', 'of', 'textile', 'industrialist'],\n       dtype=object)}\n {'text': 'eldest son of a successful German textile industrialist, and got involved with radical journalism during his formative years', 'tokens': array(['eldest', 'son', 'of', 'a', 'successful', 'German', 'textile',\n        'industrialist', ',', 'and', 'got', 'involved', 'with', 'radical',\n        'journalism', 'during', 'his', 'formative', 'years'], dtype=object)}                                                                                                                                             ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why didn't the family approve of Archie marrying Phebe?",
+    "golden_answers": [
+      "[{'text': 'Because they felt that she was beneath him.', 'tokens': array(['Because', 'they', 'felt', 'that', 'she', 'was', 'beneath', 'him',\n        '.'], dtype=object)}\n {'text': 'He would be marrying beneath himself.', 'tokens': array(['He', 'would', 'be', 'marrying', 'beneath', 'himself', '.'],\n       dtype=object)}                                                                                                           ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why are there no children in the community?",
+    "golden_answers": [
+      "[{'text': 'Only the Mother and Father of the House reproduce.', 'tokens': array(['Only', 'the', 'Mother', 'and', 'Father', 'of', 'the', 'House',\n        'reproduce', '.'], dtype=object)}\n {'text': 'romantic interests are not allowed', 'tokens': array(['romantic', 'interests', 'are', 'not', 'allowed'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the name of the banker that Moll is interested in?",
+    "golden_answers": [
+      "[{'text': 'Callum Murray', 'tokens': array(['Callum', 'Murray'], dtype=object)}\n {'text': 'Callum Murray', 'tokens': array(['Callum', 'Murray'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who is responsible for Bussy's destruction?",
+    "golden_answers": [
+      "[{'text': \"Tamyra's husband, Montsurry.\", 'tokens': array(['Tamyra', 's', 'husband', ',', 'Montsurry', '.'], dtype=object)}\n {'text': 'Montsurry.', 'tokens': array(['Montsurry', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why did Ramona kill Elizabeth?",
+    "golden_answers": [
+      "[{'text': 'Elizabeth looked too much like Madeleine.', 'tokens': array(['Elizabeth', 'looked', 'too', 'much', 'like', 'Madeleine', '.'],\n       dtype=object)}\n {'text': 'She looked like MAdeleine', 'tokens': array(['She', 'looked', 'like', 'MAdeleine'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why did Madame de Stael pay for Louis Lambert to go to college?",
+    "golden_answers": [
+      "[{'text': 'She was impressed by his intellect.', 'tokens': array(['She', 'was', 'impressed', 'by', 'his', 'intellect', '.'],\n       dtype=object)}\n {'text': \"She admired Lambert's intellect.\", 'tokens': array(['She', 'admired', 'Lambert', 's', 'intellect', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why did the police decide to awake Spartan?",
+    "golden_answers": [
+      "[{'text': 'They were not able to handle the violence in the city.', 'tokens': array(['They', 'were', 'not', 'able', 'to', 'handle', 'the', 'violence',\n        'in', 'the', 'city', '.'], dtype=object)}\n {'text': \"They haven't dealt with violent crime in many years and are unprepared.\", 'tokens': array(['They', 'have', \"n't\", 'dealt', 'with', 'violent', 'crime', 'in',\n        'many', 'years', 'and', 'are', 'unprepared', '.'], dtype=object)}                                                                                              ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Susan tell Harvey she's asked to give her away?",
+    "golden_answers": [
+      "[{'text': 'Her step-father Brian. ', 'tokens': array(['Her', 'step-father', 'Brian', '.'], dtype=object)}\n {'text': \"Brain, her mom's new husband.\", 'tokens': array(['Brain', ',', 'her', 'mom', 's', 'new', 'husband', '.'],\n       dtype=object)}                                                                                               ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why was Paul forced leave for the West Indies?",
+    "golden_answers": [
+      "[{'text': 'To try to seperate him and Lucy.', 'tokens': array(['To', 'try', 'to', 'seperate', 'him', 'and', 'Lucy', '.'],\n       dtype=object)}\n {'text': 'to head a plantation there', 'tokens': array(['to', 'head', 'a', 'plantation', 'there'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does Kopalas see Cragie accidentally do?",
+    "golden_answers": [
+      "[{'text': 'He watches him accidentally gun down a teenager and then plant his weapon on him.', 'tokens': array(['He', 'watches', 'him', 'accidentally', 'gun', 'down', 'a',\n        'teenager', 'and', 'then', 'plant', 'his', 'weapon', 'on', 'him',\n        '.'], dtype=object)}\n {'text': 'shoot a teenager', 'tokens': array(['shoot', 'a', 'teenager'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Art intend to give this idea to?",
+    "golden_answers": [
+      "[{'text': 'EST tribe', 'tokens': array(['EST', 'tribe'], dtype=object)}\n {'text': 'The Eastern Standard Tribe.', 'tokens': array(['The', 'Eastern', 'Standard', 'Tribe', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What proof does Montresor provide Fortunato that he is indeed a Mason?",
+    "golden_answers": [
+      "[{'text': 'He shows a trowel he had hidden', 'tokens': array(['He', 'shows', 'a', 'trowel', 'he', 'had', 'hidden'], dtype=object)}\n {'text': 'Montresor  shows him a trowel.', 'tokens': array(['Montresor', 'shows', 'him', 'a', 'trowel', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What does the mother cat do to the kittens when she pulls them off of the wall?",
+    "golden_answers": [
+      "[{'text': 'She smacks them and takes them back to the house.', 'tokens': array(['She', 'smacks', 'them', 'and', 'takes', 'them', 'back', 'to',\n        'the', 'house', '.'], dtype=object)}\n {'text': 'smacks them', 'tokens': array(['smacks', 'them'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Why did Ryan want to make know if he was a good man?",
+    "golden_answers": [
+      "[{'text': \"To know if he was worthy of Miller's sacrifice.\", 'tokens': array(['To', 'know', 'if', 'he', 'was', 'worthy', 'of', 'Miller', 's',\n        'sacrifice', '.'], dtype=object)}\n {'text': 'his wife', 'tokens': array(['his', 'wife'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who did Celeste meet in yoga class?",
+    "golden_answers": [
+      "[{'text': 'Paul', 'tokens': array(['Paul'], dtype=object)}\n {'text': 'Paul.', 'tokens': array(['Paul', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What is the name of the young girl who is asleep in Eve's apartment?",
+    "golden_answers": [
+      "[{'text': 'Phoebe', 'tokens': array(['Phoebe'], dtype=object)}\n {'text': 'Phoebe', 'tokens': array(['Phoebe'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Where in the hotel are Mike and Abby when they first kiss?",
+    "golden_answers": [
+      "[{'text': 'the elevator', 'tokens': array(['the', 'elevator'], dtype=object)}\n {'text': 'Los Angeles', 'tokens': array(['Los', 'Angeles'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Where did Gregory and Juno discuss each other's feelings?",
+    "golden_answers": [
+      "[{'text': 'on a hotel sofa', 'tokens': array(['on', 'a', 'hotel', 'sofa'], dtype=object)}\n {'text': 'hotel room', 'tokens': array(['hotel', 'room'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Where was Josie waiting for Sam arrive to kiss her?",
+    "golden_answers": [
+      "[{'text': 'Middle of the baseball field', 'tokens': array(['Middle', 'of', 'the', 'baseball', 'field'], dtype=object)}\n {'text': 'In the middle of a baseball field.', 'tokens': array(['In', 'the', 'middle', 'of', 'a', 'baseball', 'field', '.'],\n       dtype=object)}                                                                                                        ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Where was Buck when Thornton was killed?",
+    "golden_answers": [
+      "[{'text': 'on a long hunt', 'tokens': array(['on', 'a', 'long', 'hunt'], dtype=object)}\n {'text': 'with a wolf pack', 'tokens': array(['with', 'a', 'wolf', 'pack'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What was the symbol of the Standard Oil Company?",
+    "golden_answers": [
+      "[{'text': 'An octopus', 'tokens': array(['An', 'octopus'], dtype=object)}\n {'text': 'An octopus.', 'tokens': array(['An', 'octopus', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How did Dimitri find Anna?",
+    "golden_answers": [
+      "[{'text': 'He went to the theatre where he thought Anna may attend.', 'tokens': array(['He', 'went', 'to', 'the', 'theatre', 'where', 'he', 'thought',\n        'Anna', 'may', 'attend', '.'], dtype=object)}\n {'text': 'Through a hotel porter.', 'tokens': array(['Through', 'a', 'hotel', 'porter', '.'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How does Drew get Bill voted out as chairman?",
+    "golden_answers": [
+      "[{'text': 'He uses Bills strange behavior and reliance on Joe Black to sway the votes to go his way. ', 'tokens': array(['He', 'uses', 'Bills', 'strange', 'behavior', 'and', 'reliance',\n        'on', 'Joe', 'Black', 'to', 'sway', 'the', 'votes', 'to', 'go',\n        'his', 'way', '.'], dtype=object)}\n {'text': 'By convincing the rest of the board members that Bill is incompetent.', 'tokens': array(['By', 'convincing', 'the', 'rest', 'of', 'the', 'board', 'members',\n        'that', 'Bill', 'is', 'incompetent', '.'], dtype=object)}                                                                                                      ]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What happens to the Heart of the Ocean at the end?",
+    "golden_answers": [
+      "[{'text': 'Rose drops it into the ocean.', 'tokens': array(['Rose', 'drops', 'it', 'into', 'the', 'ocean', '.'], dtype=object)}\n {'text': 'Rose drops it into the sea', 'tokens': array(['Rose', 'drops', 'it', 'into', 'the', 'sea'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "What occupation does Marvin have?",
+    "golden_answers": [
+      "[{'text': 'Janitor', 'tokens': array(['Janitor'], dtype=object)}\n {'text': 'janitor', 'tokens': array(['janitor'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "How many brother'sdoes Mortimer have?",
+    "golden_answers": [
+      "[{'text': 'Two', 'tokens': array(['Two'], dtype=object)}\n {'text': 'Two', 'tokens': array(['Two'], dtype=object)}]"
+    ],
+    "context": []
+  },
+  {
+    "question": "Who does Cher believe Tai belongs with?",
+    "golden_answers": [
+      "[{'text': 'Elton', 'tokens': array(['Elton'], dtype=object)}\n {'text': 'Elton', 'tokens': array(['Elton'], dtype=object)}]"
+    ],
+    "context": []
+  }
+]
