@@ -75,9 +75,9 @@ def run_agent(config) -> None:
             # address="127.0.0.1:8268",
             runtime_env={"env_vars": {"TOKENIZERS_PARALLELISM": "true", "NCCL_DEBUG": "WARN", "VLLM_LOGGING_LEVEL": "WARN"}},
             num_cpus=config.ray_init.num_cpus,
-        #     _temp_dir="/home/luohaoran/wenjin/new/Agent-R1/ray_cache",
+            # _temp_dir="/data/yichao/new",
         #     _system_config={
-        # "object_spilling_config": '{"type":"filesystem","params":{"directory_path":"/home/luohaoran/wenjin/new/Agent-R1"}}'
+        # "object_spilling_config": '{"type":"filesystem","params":{"directory_path":"/data/yichao/wenjin/new/prompt-agent"}}'
     # }
         )
 

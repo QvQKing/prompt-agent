@@ -1,6 +1,6 @@
 """
 Tool generation manager for LLM agents
-工具生成/交互管理器：用于管理 LLM 在"带工具"的生成循环中的交互与状态维护
+工具生成/交互管理器：用于管理 LLM 在“带工具”的生成循环中的交互与状态维护
 """
 
 import torch
@@ -9,7 +9,6 @@ from typing import List, Dict, Any, Tuple, Union
 from dataclasses import dataclass
 from PIL import Image
 import numpy as np
-import json
 
 from .tensor_helper import TensorHelper, TensorConfig             # 本地辅助模块：封装padding/拼接/position_ids等张量处理
 from agent_r1.tool.base import BaseToolEnv, BaseImageToolEnv      # 工具环境接口（文本工具环境/图像工具环境）
@@ -65,7 +64,7 @@ class ToolGenerationManager:
                            active_mask: torch.Tensor,
                            pad_value: Any = None) -> Union[List[Any], np.ndarray, torch.Tensor]:
         """Pad data according to active mask.
-        按 active_mask（形如[True, False, True]）把一个"仅包含active样本的数据列表"扩充回 batch 大小，并在非活跃位填充 pad_value。
+        按 active_mask（形如[True, False, True]）把一个“仅包含active样本的数据列表”扩充回 batch 大小，并在非活跃位填充 pad_value。
         
         Args:
             data: 仅对应 active=True 的条目（顺序与active_mask中的True顺序一致）
@@ -113,14 +112,14 @@ class ToolGenerationManager:
     
     def _create_response_action_mask(self, responses_ids_list: List[List[int]], tool_responses_ids_list: List[List[int]]) -> List[List[int]]:
         """
-        为"响应序列"创建action mask：区分哪些token是模型生成(1)，哪些是工具输出拼接(0)。
+        为“响应序列”创建action mask：区分哪些token是模型生成(1)，哪些是工具输出拼接(0)。
         
         Args:
             responses_ids_list: 每条样本，模型生成token ids列表
             tool_responses_ids_list: 每条样本，对应的工具响应token ids列表
             
         Returns:
-            action_masks: 与"模型生成 + 工具响应"拼接后等长的掩码（模型=1，工具=0）
+            action_masks: 与“模型生成 + 工具响应”拼接后等长的掩码（模型=1，工具=0）
         """
         action_masks = []
         
@@ -130,223 +129,11 @@ class ToolGenerationManager:
             action_masks.append(action_mask)
 
         return action_masks
-
-    # ==== 新增：会话历史记录管理功能（正确的内容提取） ====
-    def _extract_tool_call_prompt(self, raw_response: str) -> str:
-        """
-        从模型响应中提取工具调用的prompt参数
-        
-        Args:
-            raw_response: 模型的原始响应
-            
-        Returns:
-            prompt: 提取出的prompt参数值，如果没有工具调用则返回空字符串
-        """
-        try:
-            # 使用与NousToolEnv相同的解析逻辑
-            tool_call_start = "<tool_call>"
-            tool_call_end = "</tool_call>"
-            pattern = re.compile(f"{re.escape(tool_call_start)}(.*?){re.escape(tool_call_end)}", re.DOTALL)
-            
-            for tool_call_text in re.findall(pattern, raw_response):
-                try:
-                    tool_call = json.loads(tool_call_text)
-                    if isinstance(tool_call, dict) and "arguments" in tool_call:
-                        arguments = tool_call["arguments"]
-                        if isinstance(arguments, dict) and "prompt" in arguments:
-                            prompt = arguments["prompt"]
-                            # print(f"[DEBUG] Extracted prompt: {prompt[:100]}...")
-                            return prompt
-                except json.JSONDecodeError:
-                    continue
-            
-            # 如果没有找到有效的prompt，返回空字符串
-            # print(f"[DEBUG] No valid tool call prompt found in response")
-            return ""
-            
-        except Exception as e:
-            print(f"[ERROR] Error extracting tool call prompt: {e}")
-            return ""
-
-    def _extract_tool_response_content(self, tool_response: str) -> str:
-        """
-        从格式化的工具响应中提取results数组的内容
-        
-        Args:
-            tool_response: 经过format_tool_response()处理后的格式化字符串
-                          格式如：'<|im_end|>\n<|im_start|>user\n<tool_response>\n{"results": ["..."]}\n</tool_response>...'
-            
-        Returns:
-            content: 提取出的results内容，如果解析失败则返回空字符串
-        """
-        try:
-            if not tool_response or tool_response == "No tool response":
-                return ""
-            
-            # 从格式化字符串中提取<tool_response>标签内的JSON内容
-            tool_response_start = "<tool_response>"
-            tool_response_end = "</tool_response>"
-            pattern = re.compile(f"{re.escape(tool_response_start)}(.*?){re.escape(tool_response_end)}", re.DOTALL)
-            
-            matches = re.findall(pattern, tool_response)
-            if matches:
-                # 取第一个匹配的内容
-                json_content = matches[0].strip()
-                # print(f"[DEBUG] Extracted JSON from tool_response tags: {json_content[:100]}...")
-                
-                # 解析JSON并提取results
-                try:
-                    tool_response_data = json.loads(json_content)
-                    if isinstance(tool_response_data, dict) and "results" in tool_response_data:
-                        results = tool_response_data["results"]
-                        if isinstance(results, list) and len(results) > 0:
-                            content = results[0]  # 取第一个结果
-                            # print(f"[DEBUG] Extracted results content: {content[:100]}...")
-                            return content
-                except json.JSONDecodeError as e:
-                    # print(f"[DEBUG] Failed to parse JSON from tool_response: {e}")
-                    pass
-            
-            # 如果没有找到<tool_response>标签，尝试直接解析JSON
-            try:
-                tool_response_data = json.loads(tool_response)
-                if isinstance(tool_response_data, dict) and "results" in tool_response_data:
-                    results = tool_response_data["results"]
-                    if isinstance(results, list) and len(results) > 0:
-                        content = results[0]  # 取第一个结果
-                        # print(f"[DEBUG] Extracted results from direct JSON: {content[:100]}...")
-                        return content
-            except json.JSONDecodeError:
-                pass
-            
-            # 如果都失败了，返回空字符串
-            # print(f"[DEBUG] Could not extract results from tool response, returning empty string")
-            return ""
-            
-        except Exception as e:
-            print(f"[ERROR] Error extracting tool response content: {e}")
-            return ""
-
-    def _initialize_conversation_history(self, batch_size: int) -> np.ndarray:
-        """
-        初始化会话历史记录，为每个样本创建空的消息列表
-        
-        Args:
-            batch_size: 批次大小
-            
-        Returns:
-            conversation_history: 每个样本的会话历史消息列表
-        """
-        conversation_histories = []
-        for i in range(batch_size):
-            # 每个样本初始化为空的消息列表，格式：[{"role": "user/assistant", "content": "..."}]
-            conversation_histories.append([])
-        
-        # print(f"[DEBUG] Initialized conversation history for {batch_size} samples")
-        return np.array(conversation_histories, dtype=object)
-
-    def _update_conversation_history(self, conversation_history: np.ndarray, 
-                                   raw_responses: List[str], 
-                                   tool_responses: List[str],
-                                   active_mask: torch.Tensor,
-                                   turn_idx: int) -> np.ndarray:
-        """
-        更新会话历史记录，正确提取并记录用户prompt和助手回复内容
-        
-        Args:
-            conversation_history: 当前的会话历史
-            raw_responses: 模型的原始响应（仅活跃样本）
-            tool_responses: 工具的响应（仅活跃样本）
-            active_mask: 活跃样本掩码
-            turn_idx: 当前轮次索引
-            
-        Returns:
-            updated_history: 更新后的会话历史
-        """
-        # 首先扩展到完整batch大小
-        padded_raw_responses = self._example_level_pad(raw_responses, active_mask, pad_value="")
-        padded_tool_responses = self._example_level_pad(tool_responses, active_mask, pad_value="")
-        
-        # 验证输入数据的一致性
-        assert len(conversation_history) == len(padded_raw_responses), f"History length {len(conversation_history)} != responses length {len(padded_raw_responses)}"
-        assert len(conversation_history) == len(padded_tool_responses), f"History length {len(conversation_history)} != tool responses length {len(padded_tool_responses)}"
-        
-        new_history = []
-        active_count = 0
-        
-        for i in range(len(conversation_history)):
-            # 复制当前历史（深拷贝消息列表）
-            current_messages = []
-            if isinstance(conversation_history[i], list):
-                current_messages = [msg.copy() for msg in conversation_history[i]]
-            
-            # 只有当该样本活跃且有响应时才添加消息
-            if active_mask[i] and padded_raw_responses[i]:
-                # ==== 正确提取用户消息内容（工具调用中的prompt参数） ====
-                user_prompt = self._extract_tool_call_prompt(padded_raw_responses[i])
-                if user_prompt:  # 只有成功提取到prompt才添加用户消息
-                    user_message = {
-                        "role": "user",
-                        "content": user_prompt  # 存储工具调用中的prompt参数值
-                    }
-                    current_messages.append(user_message)
-                    
-                    # ==== 正确提取助手回复内容（工具响应中的results内容） ====
-                    assistant_content = self._extract_tool_response_content(padded_tool_responses[i])
-                    assistant_message = {
-                        "role": "assistant", 
-                        "content": assistant_content  # 存储工具响应中results数组的内容
-                    }
-                    current_messages.append(assistant_message)
-                    
-                    active_count += 1
-                    # print(f"[DEBUG] Updated history for sample {i}, turn {turn_idx}: added user+assistant messages")
-                    # print(f"[DEBUG] User content: {user_prompt[:100]}...")
-                    # print(f"[DEBUG] Assistant content: {assistant_content[:100]}...")
-                    # print(f"[DEBUG] Total messages for sample {i}: {len(current_messages)}")
-            
-            new_history.append(current_messages)
-        
-        # print(f"[DEBUG] Turn {turn_idx}: Updated {active_count} active samples with correct message content")
-        return np.array(new_history, dtype=object)
-
-    def _extract_conversation_context(self, conversation_history: np.ndarray, 
-                                    sample_indices: List[int]) -> List[List[Dict[str, str]]]:
-        """
-        为指定样本提取会话上下文，返回标准消息格式列表
-        
-        Args:
-            conversation_history: 会话历史记录
-            sample_indices: 需要提取历史的样本索引列表（对应活跃样本）
-            
-        Returns:
-            message_histories: 每个样本的消息历史列表，格式：[{"role": "user/assistant", "content": "..."}]
-        """
-        message_histories = []
-        
-        for idx in sample_indices:
-            if idx >= len(conversation_history):
-                # print(f"[WARNING] Invalid sample index {idx} >= {len(conversation_history)}")
-                message_histories.append([])
-                continue
-            
-            messages = conversation_history[idx]
-            if not isinstance(messages, list):
-                # print(f"[WARNING] Sample {idx} history is not list, got {type(messages)}")
-                message_histories.append([])
-                continue
-            
-            # 直接返回消息列表（已经是标准格式）
-            message_histories.append(messages)
-            # print(f"[DEBUG] Extracted {len(messages)} messages for sample {idx}")
-        
-        return message_histories
-    # ==== 会话历史记录管理功能结束 ====
  
     def _update_rolling_state(self, rollings, responses_ids: torch.Tensor, 
                             tool_responses: List[str], tool_responses_images: List[List[Image.Image]]):
         """
-        将"本轮模型生成 + 本轮工具响应（含图片）"拼接回 rollings（滚动的上下文状态），
+        将“本轮模型生成 + 本轮工具响应（含图片）”拼接回 rollings（滚动的上下文状态），
         并维护：responses累积、action_mask累积、input_ids/attention/position_ids、多模态数据等。
         """
         is_multi_modal = "multi_modal_data" in rollings.non_tensor_batch.keys()  # 是否存在多模态流
@@ -397,7 +184,7 @@ class ToolGenerationManager:
         # 将（已处理占位）后的工具响应，转换为token ids
         tool_responses_ids = self._batch_tokenize(formatted_tool_responses)
 
-        # 将"模型本轮生成 + 工具本轮响应"拼到 rollings.batch['responses'] 尾部（累积所有turns）
+        # 将“模型本轮生成 + 工具本轮响应”拼到 rollings.batch['responses'] 尾部（累积所有turns）
         if "responses" not in rollings.batch.keys():
             rollings.batch['responses'] = self.tensor_fn.concatenate_with_padding([
                 responses_ids,
@@ -489,7 +276,7 @@ class ToolGenerationManager:
         rollings.batch['position_ids'] = new_position_ids
         rollings.batch['attention_mask'] = new_attention_mask
 
-        # 维护 raw_prompt_ids（未pad的"真实输入序列"id列表）：用于后续越界检查/调试
+        # 维护 raw_prompt_ids（未pad的“真实输入序列”id列表）：用于后续越界检查/调试
         raw_prompt_ids = rollings.non_tensor_batch['raw_prompt_ids'].tolist()
         new_raw_prompt_ids = []
         for raw_prompt_id, responses_ids_, raw_tool_response in zip(raw_prompt_ids, responses_ids_list, raw_tool_responses):
@@ -514,19 +301,13 @@ class ToolGenerationManager:
         turns = torch.zeros(batch_size, dtype=torch.int32)               # 每个样本已经经历的回合数
         active_num_list = [active_mask.sum().item()]                     # 记录每轮活跃样本数（调试用）
         rollings = gen_batch                                             # 将传入的batch作为滚动状态起点
-        meta_info = gen_batch.meta_info                                  # 保留元信息（数据来源等）
+        meta_info = gen_batch.meta_info  
+                               # 保留元信息（数据来源等）
         prompts = gen_batch.batch['input_ids'][:, -self.config.max_prompt_length:].clone()
         # 保存截断后的prompt（最后max_prompt_length个token）
 
-        # ==== 新增：初始化会话历史记录（标准消息格式） ====
-        if 'conversation_history' not in rollings.non_tensor_batch:
-            rollings.non_tensor_batch['conversation_history'] = self._initialize_conversation_history(batch_size)
-        # ==== 初始化会话历史记录结束 ====
-
         # Main generation loop
-        for turn_idx in range(self.config.max_turns):
-            # print(f"\n[INFO] === Starting turn {turn_idx} ===")
-            
+        for _ in range(self.config.max_turns):
             if not active_mask.sum():
                 break  # 无活跃样本，结束
 
@@ -544,8 +325,7 @@ class ToolGenerationManager:
                 print("[WARNING] SEQUENCE LENGTH EXCEEDED MAX PROMPT LENGTH")
                 for prompt_id, length_exceeded_ in zip(raw_prompt_ids, length_exceeded):
                     if length_exceeded_:
-                        # print(f"[DEBUG] LENGTH {len(prompt_id)}: {self.tokenizer.decode(prompt_id)}")
-                        pass
+                        print(f"[DEBUG] LENGTH {len(prompt_id)}: {self.tokenizer.decode(prompt_id)}")
                 active_mask[length_exceeded] = 0
             
             if not active_mask.sum():
@@ -564,98 +344,106 @@ class ToolGenerationManager:
                     tensors={ k: v[active_mask] for k, v in rollings.batch.items() },
                     meta_info=meta_info
                 )
-            # breakpoint()
+            breakpoint()
             # 打印当前输入给模型的 prompt（解码为可读文本）
-            # input_ids = rollings.batch['input_ids']
+            input_ids = rollings.batch['input_ids']
             
-            # # 解码整个batch的input_ids，打印每个样本对应的文本
-            # decoded_prompts = [self.tokenizer.decode(input_ids[i], skip_special_tokens=True) for i in range(batch_size)]
+            # 解码整个batch的input_ids，打印每个样本对应的文本
+            decoded_prompts = [self.tokenizer.decode(input_ids[i], skip_special_tokens=True) for i in range(batch_size)]
             
-            # # 打印每个样本的prompt
-            # for i, decoded_prompt in enumerate(decoded_prompts):
-            #     print(f"\n[DEBUG] Input to Model (Prompt) for sample {i}:\n{decoded_prompt}")        
+            # 打印每个样本的prompt
+            for i, decoded_prompt in enumerate(decoded_prompts):
+                print(f"\n[DEBUG] Input to Model (Prompt) for sample {i}:\n{decoded_prompt}")        
+            # You are Qwen, created by Alibaba Cloud. You are a helpful assistant.
+
+            # # Tools
+
+            # You may call one or more functions to assist with the user query.
+
+            # You are provided with function signatures within <tools></tools> XML tags:
+            # <tools>
+            # {"type": "function", "function": {"name": "search", "description": "Search for information on the internet using Wikipedia as a knowledge source.", "parameters": {"type": "object", "properties": {"query": {"type": "string", "description": "Search query"}}, "required": ["query"]}}}
+            # </tools>
+
+            # For each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:
+            # <tool_call>
+            # {"name": <function-name>, "arguments": <args-json-object>}
+            # </tool_call>
+            # user
+            # Question: Which was formed first, Noori or Test Icicles?
+            # You FIRST think about the reasoning process as an internal monologue and then provide the final answer. The reasoning process MUST BE enclosed within <think> </think> tags. The final answer MUST BE put in <answer> </answer> tags.
+            # assistant
 
             # 4) 为分布式world_size做padding，使batch能均匀切分到各GPU；生成后再unpad回原形
+            # breakpoint()
+
             rollings_active, pad_size = pad_dataproto_to_divisor(rollings_active, self.actor_rollout_wg.world_size)
             gen_output = self.actor_rollout_wg.generate_sequences(rollings_active)  # 模型生成：拿到本轮 raw responses
             gen_output = unpad_dataproto(gen_output, pad_size=pad_size)
 
-            # 5) 从生成结果里取出"responses"字段，并交给env做必要的后处理（去噪、裁切、去特殊符号等）；这里的"raw_responses"是小模型的输出
+            # 5) 从生成结果里取出“responses”字段，并交给env做必要的后处理（去噪、裁切、去特殊符号等）；这里的“raw_responses”是小模型的输出
             raw_responses_ids = gen_output.batch['responses']
             responses_ids = env.process_responses_ids(self.tokenizer, raw_responses_ids)
             raw_responses = self.tokenizer.batch_decode(responses_ids, skip_special_tokens=True)  # 解码为字符串
+            # '<think>\nTo determine which was formed first, Noori or Test Icicles, we need to look up 
+            # information about each. Noori is a brand name, 
+            # and Test Icicles is a type of ice cream. 
+            # We can search for information on Wikipedia to find the formation dates of both.\n
+            # </think>\n
+            # <tool_call>\n\n{"name": "search", "arguments": 
+            # {"query": "formation date Noori Test Icicles"}}
+            # \n</tool_call>'
+
 
             # ==== 在这里开始插入 DEBUG 验证（紧接着 raw_responses 这一行之后）====
-            # print("\n[DEBUG] === RAW MODEL RESPONSE (before tool env) ===")
-            # for i, txt in enumerate(raw_responses):
-            #     has_tool_call = "<tool_call>" in txt
-            #     print(f"[{i}] has_tool_call={has_tool_call}\n{txt}\n{'-'*60}")
+            print("\n[DEBUG] === RAW MODEL RESPONSE (before tool env) ===")
+            for i, txt in enumerate(raw_responses):
+                has_tool_call = "<tool_call>" in txt
+                print(f"[{i}] has_tool_call={has_tool_call}\n{txt}\n{'-'*60}")
             # ===========================================================
-
-            # ==== 新增：准备会话历史上下文传递给工具环境（标准消息格式） ====
-            # 获取活跃样本的索引
-            active_indices = [i for i, is_active in enumerate(active_mask) if is_active]
-            # print(f"[DEBUG] Active indices: {active_indices}")
-            
-            # 提取活跃样本的会话历史（标准消息格式）
-            conversation_message_histories = self._extract_conversation_context(
-                rollings.non_tensor_batch['conversation_history'], 
-                active_indices
-            )
-            # print(f"[DEBUG] Extracted {len(conversation_message_histories)} message histories")
-            # ==== 会话历史上下文准备结束 ====
 
             # 6) 解析工具调用并执行工具（文本工具或图像工具两类环境）
             if isinstance(env, BaseToolEnv):
                 if self.config.use_batch_tool_calls:
-                    # 批量工具：一次处理整个batch的工具调用，传递会话历史
-                    tool_responses, _, new_active_masks = env.batch_step(raw_responses, conversation_message_histories)
+                    # 批量工具：一次处理整个batch的工具调用
+                    # breakpoint()
+                    tool_responses, _, new_active_masks = env.batch_step(raw_responses)
                 else:
                     # 逐条工具：对每条样本依次解析并执行
                     tool_responses = []
                     new_active_masks = []
-                    for idx, (raw_response, messages) in enumerate(zip(raw_responses, conversation_message_histories)):
-                        tool_response, _, active = env.step(raw_response, messages)
+                    for raw_response in raw_responses:
+                        tool_response, _, active = env.step(raw_response)
                         tool_responses.append(tool_response)
                         new_active_masks.append(active)
                         # ==== DEBUG：工具环境返回的继续标记 & 注回上下文的工具响应预览 ====
-                        # print(f"\n[DEBUG] Sample {idx} - message history length: {len(messages)}")
-                        # preview = (tool_response or "")[:200].replace("\n", " ")
-                        # print(f"[DEBUG] tool_response preview: {preview}")
+                        print("\n[DEBUG] new_active_masks:", new_active_masks)
+                        for i, tr in enumerate(tool_responses):
+                            preview = (tr or "")[:200].replace("\n", " ")
+                            print(f"[DEBUG] tool_responses[{i}] len={len(tr) if tr is not None else 0} preview={preview}")
                         # =================================================================
 
                 tool_images = [[]] * len(raw_responses)  # 纯文本工具无图像
             elif isinstance(env, BaseImageToolEnv):
                 if self.config.use_batch_tool_calls:
-                    # 图像工具的批量接口：额外返回每条的图像列表，传递会话历史
-                    tool_responses, tool_images, _, new_active_masks = env.batch_step(raw_responses, conversation_message_histories)
+                    # 图像工具的批量接口：额外返回每条的图像列表
+                    tool_responses, tool_images, _, new_active_masks = env.batch_step(raw_responses)
                 else:
                     tool_responses = []
                     tool_images = []
                     new_active_masks = []
-                    for idx, (raw_response, messages) in enumerate(zip(raw_responses, conversation_message_histories)):
+                    for raw_response in raw_responses:
                         # 对图像工具：可能返回 assistant_message（可选）、tool_message(要拼接的工具响应)、
                         # tool_image（图像数据）、success、stop（是否停止）
-                        assistant_message, tool_message, tool_image, success, stop = env.step(raw_response, messages)
+                        assistant_message, tool_message, tool_image, success, stop = env.step(raw_response)
                         tool_responses.append(tool_message)
                         tool_images.append(tool_image)
                         new_active_masks.append(stop)
 
-            # 7) 将"仅包含活跃样本顺序"的outputs扩展回batch大小（用_example_level_pad）
+            # 7) 将“仅包含活跃样本顺序”的outputs扩展回batch大小（用_example_level_pad）
             responses_ids = self._example_level_pad(responses_ids, active_mask)
             tool_responses = self._example_level_pad(tool_responses, active_mask, pad_value="")
             tool_images = self._example_level_pad(tool_images, active_mask, pad_value=[])
-
-            # ==== 新增：更新会话历史记录（正确的内容提取） ====
-            rollings.non_tensor_batch['conversation_history'] = self._update_conversation_history(
-                rollings.non_tensor_batch['conversation_history'],
-                raw_responses,
-                tool_responses,
-                active_mask,
-                turn_idx
-            )
-            # print(f"[DEBUG] Updated conversation history for turn {turn_idx}")
-            # ==== 会话历史记录更新结束 ====
 
             # 8) 更新active_mask为这轮工具后的活跃状态（例如模型说停止/无工具 → False）
             active_mask[active_mask.clone()] = torch.tensor(new_active_masks, dtype=torch.bool)
@@ -666,7 +454,7 @@ class ToolGenerationManager:
             # 记录活跃样本数量（调试）
             active_num_list.append(active_mask.sum().item())
 
-            # 10) 将"本轮生成 + 工具响应(文本/图像)"拼回rollings
+            # 10) 将“本轮生成 + 工具响应(文本/图像)”拼回rollings
             rollings = self._update_rolling_state(
                 rollings,
                 responses_ids,
@@ -674,7 +462,7 @@ class ToolGenerationManager:
                 tool_images
             )
  
-        # print("ACTIVE_TRAJ_NUM:", active_num_list)
+        print("ACTIVE_TRAJ_NUM:", active_num_list)
 
         # === 循环结束：组装最终输出 ===
         final_output = {}

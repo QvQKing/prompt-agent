@@ -5,7 +5,7 @@ Configuration parameters for the VLLM inference
 # Environment and API settings
 TOOLS = ["prompt"]
 OPENAI_API_KEY = "EMPTY"
-OPENAI_API_BASE = "http://localhost:8000/v1"
+OPENAI_API_BASE = "http://localhost:8088/v1"
 MODEL_NAME = "agent"
 
 # Model inference parameters

@@ -225,7 +225,7 @@ def compute_score_format(solution_str):
             if assistant_block.count('<think>') == 1 and assistant_block.count('</think>') == 1 and assistant_block.count('<tool_call>') == 1 and assistant_block.count('</tool_call>') == 1:
                 think_match = re.search(r'^<think>(.*?)</think>(\s*)<tool_call>(.*?)</tool_call>$', assistant_block, re.DOTALL)
                 if think_match:
-                    format_reward += 0.5 # 降低中间块的奖励
+                    format_reward += 0.25 # 降低中间块的奖励
         # Check the last assistant block - 重点关注answer
         last_assistant_block = assistant_blocks[-1]
         # 必须有answer标签才能获得主要奖励
@@ -368,13 +368,13 @@ def compute_score_format_answer(solution_str, ground_truth):
         format_reward = compute_score_format(solution_str)
         answer_reward = compute_score_answer(solution_str, ground_truth)
         sm_score_reward = compute_score_sm(solution_str, ground_truth)
-        format_reward = min(format_reward, 2.0)
-        if format_reward == 2.0:
-            rewards = -2.0 + format_reward + answer_reward
+        format_reward = min(format_reward, 1.5)
+        if format_reward == 1.5:
+            rewards = -1.5 + format_reward + answer_reward
             return rewards
         else:
-            rewards = -2.0 + format_reward
+            rewards = -1.5 + format_reward
             return rewards
     except Exception as e:
         print(f"[DEBUG] Error in compute_score_format_answer: {e}")
-        return -1.0
+        return -1.5
